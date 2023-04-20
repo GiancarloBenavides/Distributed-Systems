@@ -1,6 +1,6 @@
 [![Licencia](https://img.shields.io/badge/license-MIT-blue.svg)](http://kmonsoor.mit-license.org/) ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/matplotlib)
 
-![icono](img/logo.svg "Redes")
+![icono](img/logo-sd.svg "Redes")
 # Distributed-systems
 Notas y algoritmos para el curso de Sistemas distribuidos 2023-A
 
