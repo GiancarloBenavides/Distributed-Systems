@@ -31,6 +31,7 @@ Un SI es una entidad cuyos múltiples y diversos componentes materiales o concep
 - [Computación distribuida](https://es.wikipedia.org/wiki/Computaci%C3%B3n_distribuida) (Wikipedia)
 - [Problema de los dos generales](https://es.wikipedia.org/wiki/Problema_de_los_dos_generales) (Wikipedia)
 
+
 - [Cadena de bloques](https://es.wikipedia.org/wiki/Cadena_de_bloques) (Wikipedia)
 - [Red entre iguales](https://es.wikipedia.org/wiki/Peer-to-peer) (Wikipedia)
 

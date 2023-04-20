@@ -1,11 +1,12 @@
 [![Licencia](https://img.shields.io/badge/license-MIT-blue.svg)](http://kmonsoor.mit-license.org/) ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/matplotlib)
 
+![icono](img/icono.jpg "Redes")
 # Distributed-systems
 Notas y algoritmos para el curso de Sistemas distribuidos 2023-A
 
 
-* > <i>"La inteligencia es la habilidad de evitar hacer trabajo, y conseguir que el trabajo se haga"</i><br>
-<cite style="display:block; text-align: right">[Linus Torvalds](https://es.wikipedia.org/wiki/Linus_Torvalds)</cite>
+* ><i>"Siempre encuentro a la gente más inteligente que yo. Entonces mi trabajo es asegurarme de que la gente inteligente pueda trabajar junta. Y es que la gente estúpida puede trabajar junta fácilmente, la gente inteligente no."</i><br>
+<cite style="display:block; text-align: right">[Jack Ma](https://es.wikipedia.org/wiki/Jack_Ma)</cite>
 
 ---
 ## Agenda
