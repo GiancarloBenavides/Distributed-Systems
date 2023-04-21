@@ -1,8 +1,12 @@
 [![Licencia](https://img.shields.io/badge/license-MIT-blue.svg)](http://kmonsoor.mit-license.org/) ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/matplotlib)
 
-![icono](img/logo-sd.svg "Redes")
-# Distributed-systems
-Notas y algoritmos para el curso de Sistemas distribuidos 2023-A
+
+<table><tr>
+<td rowspan="9"><img src="img/logo-sd.svg" alt="Redes"></td>
+<td colspan="2" style="text-align: center;">
+<h2><b>Distributed-systems</h2>
+<h4>Notas y algoritmos para el curso de Sistemas distribuidos 2023-A</h5></td>
+</tr></table>
 
 
 * ><i>"Siempre encuentro a la gente más inteligente que yo. Entonces mi trabajo es asegurarme de que la gente inteligente pueda trabajar junta. Y es que la gente estúpida puede trabajar junta fácilmente, la gente inteligente no."</i><br>
