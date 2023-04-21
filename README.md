@@ -1,11 +1,13 @@
 [![Licencia](https://img.shields.io/badge/license-MIT-blue.svg)](http://kmonsoor.mit-license.org/) ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/matplotlib)
 
 
-<table><tr>
-<td rowspan="9"><img src="img/logo-sd.svg" alt="Redes"></td>
-<td colspan="2"><h2><b>Distributed-systems</b></h2>
-<h5>Notas y algoritmos para el curso de Sistemas distribuidos 2023-A</h5></td>
-</tr></table>
+<table>
+<tr>
+    <td rowspan="2"><img src="img/logo-sd.svg" alt="Redes"></td>
+    <td colspan="3"><h1>Distributed-systems</h1></td>
+</tr>
+<tr><td colspan="3"><h5>Notas y algoritmos para el curso de Sistemas distribuidos 2023-A</h5></td></tr>
+</table>
 
 
 * ><i>"Siempre encuentro a la gente más inteligente que yo. Entonces mi trabajo es asegurarme de que la gente inteligente pueda trabajar junta. Y es que la gente estúpida puede trabajar junta fácilmente, la gente inteligente no."</i><br>
