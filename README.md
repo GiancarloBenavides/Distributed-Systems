@@ -3,9 +3,8 @@
 
 <table><tr>
 <td rowspan="9"><img src="img/logo-sd.svg" alt="Redes"></td>
-<td colspan="2" style="text-align: center;">
-<h2><b>Distributed-systems</h2>
-<h4>Notas y algoritmos para el curso de Sistemas distribuidos 2023-A</h5></td>
+<td colspan="2"><h2><b>Distributed-systems</b></h2>
+<h4>Notas y algoritmos para el curso de Sistemas distribuidos 2023-A</h4></td>
 </tr></table>
 
 
