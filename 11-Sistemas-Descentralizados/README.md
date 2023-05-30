@@ -53,7 +53,7 @@ Con la necesidad de procesar multiples y diversas tareas en tiempo real se desar
 
 ## 1.4. Ejemplos y aplicaciones ✔
 * __Software:__ [Z/OS][14_1] y [Z/VM][14_2] de IBM.
-* __Hardware:__ Serie [Z][14_3] de IBM.
+* __Hardware:__ serie [Z][14_3] de IBM.
 * __Aplicaciones:__ [Redes neuronales][14_4] para [IA][14_5].
 
 [14_1]:https://es.wikipedia.org/wiki/Z/OS
@@ -104,9 +104,9 @@ Con el rápido crecimiento de las redes y la necesidad de disminuir costos de la
 [232_1]:https://es.wikipedia.org/wiki/Servidor
 
 ## 2.4. Ejemplos y aplicaciones ✔
-* __Software:__ [GNU/Linux][24_1] y [Windows][24_2] de Microsoft.
-* __Servidores:__ Serie [PowerEdge][24_3] de DELL y la Serie [ProLiant][24_4] de HP.
-* __Clientes:__ Serie [Legion][24_5] de Lenovo.
+* __Software:__ el software libre [GNU/Linux][24_1] y [Windows][24_2] de Microsoft.
+* __Servidores:__ serie [PowerEdge][24_3] de DELL y la serie [ProLiant][24_4] de HP.
+* __Clientes:__ serie [Legion][24_5] de Lenovo.
 * __Aplicaciones:__ [Spotify][24_6] para distribución de música.
 
 [24_1]:https://es.wikipedia.org/wiki/GNU/Linux
@@ -135,49 +135,36 @@ Con el crecimiento de la [capacidad][32_1] de los canales en las redes y buscand
 
 [32_1]:https://es.wikipedia.org/wiki/Capacidad_de_canal
 
-## 3.2. Características ✔
+## 3.3. Características ✔
 * Procesamiento Cooperativo.
 * Los procesos locales y remotos no comparten memoria.
 * Los procesos remotos son asíncronos.
+* Operaciones similares o idénticas para acceder a objetos locales o remotos.
 * Capacidad de escalar verticalmente y horizontalmente.
 * Clientes desacoplados a un servidor, la falla de un terminal no afecta al sistema.
 
-## 2.3.1. Ventajas
-* 
+## 3.3.1. Ventajas
+* Tolerancia de fallos parciales.
+* Mas económico de escalar.
+* Mayor flexibilidad.
 
-## 2.3.2. Desventajas
-* Comunicación mas costosa que [IPC][232_1]
-* Comunicación menos segura que [IPC][232_1]
-* 
+## 3.3.2. Desventajas
+* Comunicación mas costosa y compleja que [IPC][232_1].
+* Comunicación menos segura que [IPC][232_1].
+* Posibles inconsistencias.
 
 [232_1]:https://es.wikipedia.org/wiki/Comunicaci%C3%B3n_entre_procesos
 
+## 3.4. Ejemplos y aplicaciones ✔
+* __Software:__ [Solaris][34_1] de Oracle y el software libre [Proxmox][34_2] .
+* __Hardware:__ [Clúster][34_3] de computadoras y computación en [Malla][34_4] computing.
+* __Aplicaciones:__ Servicio [DNS][34_5].
 
-* Diseños basados en micro-computadoras son mas pequeños y baratos que mainframe.
-* Posibilita la distribución de una aplicación por capas.
-* Posibilidad de distintos tipos de clientes ([Liviano][231_1] - [Pesado][231_2] - [Híbrido][231_3])
-
-[231_1]:
-
-
-* Las terminales tienen funcionalidad limitada por el sistema.
-* El punto de fallo es el nodo principal ([Servidor][232_1]).
-* Baja o nula privacidad; el Servidor tiene acceso a toda la información de los clientes.
-
-
-
-
-## 3.3 Ventajas y desventajas ✔
-
-| Ventajas | Desventajas |
-|--|--|
-| Mas barato escalar | Mas complejo escalar |
-| Tolerancia a fallos | Confiabilidad |
-| Mas flexible | Menos seguro |
-| Colaborativo | Inconsistencias |
-| Mas transparente | Análisis complejo  | 
-
-
+[34_1]:https://es.wikipedia.org/wiki/Solaris_(sistema_operativo)/
+[34_2]:https://es.wikipedia.org/wiki/Proxmox_Virtual_Environment
+[34_3]:https://es.wikipedia.org/wiki/Cl%C3%BAster_de_computadoras
+[34_4]:https://es.wikipedia.org/wiki/Sistema_de_nombres_de_dominio
+[34_5]:https://es.wikipedia.org/wiki/Computaci%C3%B3n_en_malla
 
 <br>
 
@@ -210,6 +197,34 @@ Un sistemas operativo [descentralizado][3] es una entidad que permite el procesa
 | Mas transparente | Análisis complejo  | 
 
 <br>
+
+
+---
+
+* Diseños basados en micro-computadoras son mas pequeños y baratos que mainframe.
+* Posibilita la distribución de una aplicación por capas.
+* Posibilidad de distintos tipos de clientes ([Liviano][231_1] - [Pesado][231_2] - [Híbrido][231_3])
+
+[231_1]:
+
+
+* Las terminales tienen funcionalidad limitada por el sistema.
+* El punto de fallo es el nodo principal ([Servidor][232_1]).
+* Baja o nula privacidad; el Servidor tiene acceso a toda la información de los clientes.
+
+
+## 3.3 Ventajas y desventajas ✔
+
+| Ventajas | Desventajas |
+|--|--|
+| Mas barato escalar | Mas complejo escalar |
+| Tolerancia a fallos | Confiabilidad |
+| Mas flexible | Menos seguro |
+| Colaborativo | Inconsistencias |
+
+---
+
+
 
 ---
 ## Mas Recursos
