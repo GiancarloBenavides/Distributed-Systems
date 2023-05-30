@@ -18,7 +18,7 @@ La administración y los servicios que ofrece un sistema de procesamiento digita
 
 ---
 # 1. Sistemas Mainframes
-Un sistemas [mainframe][1] es una entidad que permite el procesamiento de información y soporta multiples usuarios en multiples terminales falsas, que no tienen capacidad de procesamiento.
+Un sistema [mainframe][1] es una entidad que permite el procesamiento de información y soporta multiples usuarios en multiples terminales falsas, que no tienen capacidad de procesamiento.
 
 * ><i>"La ciencia es una ecuación diferencial;<br>
 la religión es una condición de frontera."</i><br>
@@ -65,10 +65,9 @@ Con la necesidad de procesar multiples y diversas tareas en tiempo real se desar
 <br>
 
 # 2. Sistemas Centralizados
-Un sistemas [centralizado][2] es una entidad que permite el procesamiento de información y soporta multiples usuarios en multiples terminales inteligentes, que intercambian información de cliente a servidor.
+Un sistema [centralizado][2] es una entidad que permite el procesamiento de información y soporta multiples usuarios en multiples terminales inteligentes, que intercambian información de cliente a servidor.
 
-* ><i>"Es indigno que hombres notables pierdan su tiempo como esclavos del cálculo cuando podrían dejar ese trabajo en manos de cualquiera si se usaran las máquinas."</i><br>
-<cite style="display:block; text-align: right">[Gottfried Leibniz](https://es.wikipedia.org/wiki/Gottfried_Leibniz)</cite>
+* ><i>"Es indigno que hombres notables pierdan su tiempo como esclavos del cálculo cuando podrían dejar ese trabajo en manos de cualquiera si se usaran las máquinas."</i><br><cite style="display:block; text-align: right">[Gottfried Leibniz](https://es.wikipedia.org/wiki/Gottfried_Leibniz)</cite>
 
 [2]:https://es.wikipedia.org/wiki/Computaci%C3%B3n_centralizada
 
@@ -119,10 +118,9 @@ Con el rápido crecimiento de las redes y la necesidad de disminuir costos de la
 <br>
 
 # 3. Sistemas distribuidos
-Un sistemas [distribuido][3] es un grupo de entidades conectadas en red que se comportan como una y permiten el procesamiento de información de multiples usuarios en multiples terminales inteligentes.
+Un sistema [distribuido][3] es un grupo de entidades conectadas en red que se comportan como una y permiten el procesamiento de información de multiples usuarios en multiples terminales inteligentes.
 
-* ><i>"La gente con conocimientos técnicos está dispuesta a perdonar a un ordenador que se cuelga un par de veces al año, pero los usuarios normales no."</i><br><cite style="display:block; text-align: right">
-[Andrew S. Tanenbaum](https://es.wikipedia.org/wiki/Andrew_S._Tanenbaum)</cite>
+* ><i>"La gente con conocimientos técnicos está dispuesta a perdonar a un ordenador que se cuelga un par de veces al año, pero los usuarios normales no."</i><br><cite style="display:block; text-align: right"> [Andrew S. Tanenbaum](https://es.wikipedia.org/wiki/Andrew_S._Tanenbaum)</cite>
 
 [3]:https://en.wikipedia.org/wiki/Distributed_operating_system
 
@@ -169,10 +167,9 @@ Con el crecimiento de la [capacidad][32_1] de los canales en las redes y buscand
 <br>
 
 # 4. Sistemas descentralizados
-Un sistemas operativo [descentralizado][3] es una entidad que permite el procesamiento de información y soporta multiples usuarios en multiples terminales inteligentes, que intercambian información entre pares.
+Un sistema [descentralizado][3] es un grupo de entidades que permiten el procesamiento de información intercambiando información entre pares, sin que exista un nodo único que toma las decisiones.  
 
-* ><i>"La gente con conocimientos técnicos está dispuesta a perdonar a un ordenador que se cuelga un par de veces al año, pero los usuarios normales no."</i><br><cite style="display:block; text-align: right">
-[Andrew S. Tanenbaum](https://es.wikipedia.org/wiki/Andrew_S._Tanenbaum)</cite>
+* ><i>"Si nadie se ríe de alguna de tus ideas, entonces significa que no estás siendo demasiado creativo."</i><br><cite style="display:block; text-align: right"> [Bill Gates](https://es.wikipedia.org/wiki/Bill_Gates)</cite>
 
 [3]:https://en.wikipedia.org/wiki/Distributed_operating_system
 
@@ -180,50 +177,47 @@ Un sistemas operativo [descentralizado][3] es una entidad que permite el procesa
 
 ![Imagen de sistemas distribuidos](../img/os-distributed.svg "Sistemas Distribuidos")
 
-## 4.2. Características ✔
-* Los procesos locales y remotos no comparten memoria.
-* Los procesos remotos son asíncronos.
-* Capacidad de escalar verticalmente y horizontalmente.
-* Clientes desacoplados a un servidor, la falla de un terminal no afecta al sistema.
+## 4.2. Justificación ✔
+Contando con la ubicuidad de internet se posibilita buscar democratizar los recursos de internet y aumentar la eficiencia del procesamiento de datos con sistemas descentralizados con capacidad de procesar y almacenar información en multiples nodos simultáneamente.
 
-## 4.3 Ventajas y desventajas ✔
+## 4.3. Características ✔
+* Un solo nodo no conoce el estado de todo el sistema.
+* Cada nodo toma la decision mas conveniente.
+* La respuesta colectiva se logra en función del consenso entre pares.
+* Multiples controladores.
+* Distribución de los costes (recursos) entre los usuarios.
+* Capacidad de escalar horizontalmente con rapidez.
+* Clientes desacoplados.
 
-| Ventajas | Desventajas |
-|--|--|
-| Mas barato escalar | Mas complejo escalar |
-| Tolerancia a fallos | Confiabilidad |
-| Mas flexible | Menos seguro |
-| Colaborativo | Inconsistencias |
-| Mas transparente | Análisis complejo  | 
+## 4.3.1. Ventajas
+* Colaborativo y descentralizado
+* Tolerancia a fallos.
+* Flexible.
+
+## 4.3.2. Desventajas
+* Complejidad.
+* Seguridad.
+* Confiabilidad.
+
+## 4.4. Ejemplos y aplicaciones ✔
+* __Software:__ [Cadena de bloques][44_1].
+* __Aplicaciones:__ [BitCoin][44_2].
+
+[44_1]:https://es.wikipedia.org/wiki/Cadena_de_bloques
+[44_2]:https://es.wikipedia.org/wiki/Bitcoin
 
 <br>
 
-
 ---
-
-* Diseños basados en micro-computadoras son mas pequeños y baratos que mainframe.
-* Posibilita la distribución de una aplicación por capas.
-* Posibilidad de distintos tipos de clientes ([Liviano][231_1] - [Pesado][231_2] - [Híbrido][231_3])
-
-[231_1]:
-
 
 * Las terminales tienen funcionalidad limitada por el sistema.
 * El punto de fallo es el nodo principal ([Servidor][232_1]).
 * Baja o nula privacidad; el Servidor tiene acceso a toda la información de los clientes.
 
-
-## 3.3 Ventajas y desventajas ✔
-
-| Ventajas | Desventajas |
-|--|--|
-| Mas barato escalar | Mas complejo escalar |
-| Tolerancia a fallos | Confiabilidad |
 | Mas flexible | Menos seguro |
 | Colaborativo | Inconsistencias |
-
----
-
+| Mas transparente | Análisis complejo  | 
+| Colaborativo | Inconsistencias |
 
 
 ---
