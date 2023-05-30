@@ -173,7 +173,7 @@ Un sistema [descentralizado][3] es un grupo de entidades que permiten el procesa
 
 ## 4.1. Multiples servidores ✔
 
-![Imagen de sistemas distribuidos](../img/os-distributed.svg "Sistemas Distribuidos")
+![Imagen de sistemas descentralizados](../img/os-decentralized.svg "Sistemas Descentralizados")
 
 ## 4.2. Justificación ✔
 Contando con la ubicuidad de internet se posibilita buscar democratizar los recursos de internet y aumentar la eficiencia del procesamiento de datos con sistemas descentralizados con capacidad de procesar y almacenar información en multiples nodos simultáneamente.
