@@ -8,8 +8,10 @@ La administración y los servicios que ofrece un sistema de procesamiento digita
 ## Agenda
 
 1. [Sistemas mainframe](#1-sistemas-mainframes).
-1. [Sistemas Centralizados](#2-sistemas-centralizados).
-1. [Sistemas Descentralizados](#3-sistemas-distribuidos).
+1. [Sistemas centralizados](#2-sistemas-centralizados).
+1. [Sistemas distribuidos](#3-sistemas-distribuidos).
+1. [Sistemas descentralizados](#4-sistemas-descentralizados).
+
 
 <br>
 
@@ -28,14 +30,37 @@ la religión es una condición de frontera."</i><br>
 
 ![Imagen de sistemas distribuidos](../img/os-multi-station.svg "Sistemas mainframe")
 
-## 1.2. Características ✔
+## 1.2. Justificación ✔
+Con la necesidad de procesar multiples tareas en tiempo real se desarrolla los sistemas operativos mainframe para las grandes unidades de procesamiento.
+
+## 1.3. Características ✔
 * Las terminales locales no realizan procesos.
 * Todos los procesos se ejecutan en el mainframe y comparten memoria.
 * Los procesos pueden ejecutarse paralelos o en concurrencia.
 * Existe un reloj común y global entre las terminales y usuarios.
-* No es necesaria la sincronización.
 * Capacidad de escalar unicamente verticalmente.
 * Terminales fuertemente acoplados al mainframe, si falla falla el sistema.
+
+## 1.3.1. Ventajas
+* Alta velocidad procesamiento.
+* Entrada/Salida única.
+* No es necesaria la sincronización.
+
+## 1.3.2. Desventajas
+* Computador central de gran tamaño y muy costoso.
+* Las terminales carecen de funcionalidad por si mismas.
+* Un único punto de fallo.
+
+## 1.4. Ejemplos y aplicaciones ✔
+* __Software:__ [Z/OS][14_1] y [Z/VM][14_2] de IBM.
+* __Hardware:__ Serie [Z][14_3] de IBM.
+* __Aplicaciones:__ [Redes neuronales][14_4] para [IA][14_5].
+
+[14_1]:https://es.wikipedia.org/wiki/Z/OS
+[14_2]:https://en.wikipedia.org/wiki/Z/VM
+[14_3]:https://en.wikipedia.org/wiki/IBM_Z
+[14_4]:https://es.wikipedia.org/wiki/Red_neuronal_artificial
+[14_5]:https://es.wikipedia.org/wiki/Inteligencia_artificial
 
 <br>
 
@@ -51,14 +76,45 @@ Un sistemas operativo [centralizado][2] es una entidad que permite el procesamie
 
 ![Imagen de sistemas centralizados](../img/os-centralized%20.svg "Sistemas centralizados")
 
-## 2.2. Características ✔
+## 2.2. Justificación ✔
+Con el rápido crecimiento de las redes y la necesidad de disminuir costos de las unidades centrales aparecen los micro-computadoras con capacidad de procesar multiples tareas en tiempo real y conectarse entre si para compartir recursos.
+
+## 2.3. Características ✔
 * Los terminales locales realizan procesos propios.
 * Los procesos locales y remotos no comparten memoria.
 * Los terminales locales y remotos comparten recursos en una red.
 * Los procesos remotos pueden ejecutarse sincronizados o pueden ser asíncronos.
 * Capacidad de escalar verticalmente y horizontalmente.
-* Posibilita la distribución de una aplicación por capas.
 * Clientes débilmente acoplados al servidor, si alguna capa falla puede fallar la aplicación.
+
+## 2.3.1. Ventajas
+* Diseños basados en micro-computadoras son mas pequeños y baratos que mainframe.
+* Posibilita la distribución de una aplicación por capas.
+* Posibilidad de distintos tipos de clientes ([Liviano][231_1] - [Pesado][231_2] - [Híbrido][231_3])
+
+[231_1]:https://es.wikipedia.org/wiki/Cliente_liviano
+[231_2]:https://es.wikipedia.org/wiki/Cliente_pesado
+[231_3]:https://es.wikipedia.org/wiki/Cliente_h%C3%ADbrido
+
+## 2.3.2. Desventajas
+* Las terminales tienen funcionalidad limitada por el sistema.
+* El punto de fallo es el nodo principal ([Servidor][232_1]).
+* Baja o nula privacidad; el Servidor tiene acceso a toda la información de los clientes.
+
+[232_1]:https://es.wikipedia.org/wiki/Servidor
+
+## 2.4. Ejemplos y aplicaciones ✔
+* __Software:__ [GNU/Linux][24_1] y [Windows][24_2] de Microsoft.
+* __Servidores:__ Serie [PowerEdge][24_3] de DELL y la Serie [ProLiant][24_4] de HP.
+* __Clientes:__ Serie [Legion][24_5] de Lenovo.
+* __Aplicaciones:__ [Spotify][24_6] para distribución de música.
+
+[24_1]:https://es.wikipedia.org/wiki/GNU/Linux
+[24_2]:https://es.wikipedia.org/wiki/Microsoft_Windows
+[24_3]:https://en.wikipedia.org/wiki/List_of_PowerEdge_servers
+[24_4]:https://en.wikipedia.org/wiki/ProLiant
+[24_5]:https://en.wikipedia.org/wiki/Lenovo_Legion
+[24_6]:https://open.spotify.com/
 
 <br>
 
@@ -81,6 +137,38 @@ Un sistemas operativo [distribuido][3] es una entidad que permite el procesamien
 * Clientes desacoplados a un servidor, la falla de un terminal no afecta al sistema.
 
 ## 3.3 Ventajas y desventajas ✔
+
+| Ventajas | Desventajas |
+|--|--|
+| Mas barato escalar | Mas complejo escalar |
+| Tolerancia a fallos | Confiabilidad |
+| Mas flexible | Menos seguro |
+| Colaborativo | Inconsistencias |
+| Mas transparente | Análisis complejo  | 
+
+
+* Mayor seguridad que los sistemas descentralizados.
+<br>
+
+# 4. Sistemas descentralizados
+Un sistemas operativo [descentralizado][3] es una entidad que permite el procesamiento de información y soporta multiples usuarios en multiples terminales inteligentes, que intercambian información entre pares.
+
+* ><i>"La gente con conocimientos técnicos está dispuesta a perdonar a un ordenador que se cuelga un par de veces al año, pero los usuarios normales no."</i><br><cite style="display:block; text-align: right">
+[Andrew S. Tanenbaum](https://es.wikipedia.org/wiki/Andrew_S._Tanenbaum)</cite>
+
+[3]:https://en.wikipedia.org/wiki/Distributed_operating_system
+
+## 4.1. Multiples servidores ✔
+
+![Imagen de sistemas distribuidos](../img/os-distributed.svg "Sistemas Distribuidos")
+
+## 4.2. Características ✔
+* Los procesos locales y remotos no comparten memoria.
+* Los procesos remotos son asíncronos.
+* Capacidad de escalar verticalmente y horizontalmente.
+* Clientes desacoplados a un servidor, la falla de un terminal no afecta al sistema.
+
+## 4.3 Ventajas y desventajas ✔
 
 | Ventajas | Desventajas |
 |--|--|
