@@ -7,28 +7,26 @@ La administración y los servicios que ofrece un sistema de procesamiento digita
 
 ## Agenda
 
-1. [Sistemas mainframe](#1-sistemas-mainframes).
-1. [Sistemas centralizados](#2-sistemas-centralizados).
-1. [Sistemas distribuidos](#3-sistemas-distribuidos).
-1. [Sistemas descentralizados](#4-sistemas-descentralizados).
-
+1. [Cliente-Servidor](#1-cliente-servidor).
+1. [Multi-capas](#2-multi-capa).
+1. [Red entre iguales](#3-red-entre-iguales).
+1. [Cadena de bloques](#4-cadena-de-bloques).
 
 <br>
 
-
 ---
-# 1. Sistemas Mainframes
-Un sistema [mainframe][1] es una entidad que permite el procesamiento de información y soporta multiples usuarios en multiples terminales falsas, que no tienen capacidad de procesamiento.
+# 1. Cliente-Servidor
+Una arquitectura [Client–server][1] se refiere a un sistema donde los clientes inteligentes se ponen en contacto con el servidor para hacer peticiones de datos, formatearlos y mostrarlos en una vista a los usuarios. Si los datos fueron modificados por el cliente se envían para persistir los datos en el servidor.
 
 * ><i>"La ciencia es una ecuación diferencial;<br>
 la religión es una condición de frontera."</i><br>
 <cite style="display:block; text-align: right">[Alan Turing](https://es.wikipedia.org/wiki/Alan_Turing)</cite>
 
-[1]:https://es.wikipedia.org/wiki/Unidad_central
+[1]:https://es.wikipedia.org/wiki/Cliente-servidor
 
 ## 1.1. Multiples terminales ✔
 
-![Imagen de sistemas mainframe](../img/os-multi-station.svg "Sistemas mainframe")
+![Imagen de sistemas mainframe](../img/client-server.svg "Sistemas mainframe")
 
 ## 1.2. Justificación ✔
 Con la necesidad de procesar multiples y diversas tareas en tiempo real se desarrolla los sistemas operativos mainframe para las grandes unidades de procesamiento.
@@ -64,12 +62,12 @@ Con la necesidad de procesar multiples y diversas tareas en tiempo real se desar
 
 <br>
 
-# 2. Sistemas Centralizados
-Un sistema [centralizado][2] es una entidad que permite el procesamiento de información y soporta multiples usuarios en multiples terminales inteligentes, que intercambian información de cliente a servidor.
+# 2. Multi-capas
+Una arquitectura [n-Tier][2] se refiere a sistemas donde el servidor reenvía  peticiones del cliente a otros servicios conectados.
 
 * ><i>"Es indigno que hombres notables pierdan su tiempo como esclavos del cálculo cuando podrían dejar ese trabajo en manos de cualquiera si se usaran las máquinas."</i><br><cite style="display:block; text-align: right">[Gottfried Leibniz](https://es.wikipedia.org/wiki/Gottfried_Leibniz)</cite>
 
-[2]:https://es.wikipedia.org/wiki/Computaci%C3%B3n_centralizada
+[2]:https://es.wikipedia.org/wiki/Programaci%C3%B3n_por_capas
 
 ## 2.1. Multiples clientes ✔
 
@@ -117,12 +115,12 @@ Con el rápido crecimiento de las redes y la necesidad de disminuir costos de la
 
 <br>
 
-# 3. Sistemas distribuidos
-Un sistema [distribuido][3] es un grupo de entidades conectadas en red que se comportan como una y permiten el procesamiento de información de multiples usuarios en multiples terminales inteligentes.
+# 3. Red entre iguales
+Una arquitectura [P2P][3] se refiere a sistemas donde no hay máquinas especiales que presten un servicio o gestionen los recursos de la red. En su lugar, todas las responsabilidades se reparten uniformemente entre todas las máquinas, conocidas como peers.
 
 * ><i>"La gente con conocimientos técnicos está dispuesta a perdonar a un ordenador que se cuelga un par de veces al año, pero los usuarios normales no."</i><br><cite style="display:block; text-align: right"> [Andrew S. Tanenbaum](https://es.wikipedia.org/wiki/Andrew_S._Tanenbaum)</cite>
 
-[3]:https://en.wikipedia.org/wiki/Distributed_operating_system
+[3]:https://es.wikipedia.org/wiki/Peer-to-peer
 
 ## 3.1. Multiples servidores ✔
 
@@ -166,7 +164,7 @@ Con el crecimiento de la [capacidad][32_1] de los canales en las redes y buscand
 
 <br>
 
-# 4. Sistemas descentralizados
+# 4. Cadena de bloques
 Un sistema [descentralizado][3] es un grupo de entidades que permiten el procesamiento de información intercambiando información entre pares, sin que exista un nodo único que toma las decisiones.  
 
 * ><i>"Si nadie se ríe de alguna de tus ideas, entonces significa que no estás siendo demasiado creativo."</i><br><cite style="display:block; text-align: right"> [Bill Gates](https://es.wikipedia.org/wiki/Bill_Gates)</cite>
