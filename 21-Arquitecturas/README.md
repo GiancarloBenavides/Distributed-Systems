@@ -3,16 +3,18 @@
 <p>Creado por <code>Giancarlo Ortiz</code> y <code>Diego Villareal</code> para explicar los fundamentos de los <code>Sistemas distribuidos</code></p>
 
 ## Fundamentos
-La administración y los servicios que ofrece un sistema de procesamiento digital, pueden estar distribuidos en diferentes componentes de hardware y con diferentes niveles de acoplamiento entre ellos.
-
+La administración y los servicios que ofrece un sistema de procesamiento digital, pueden estar distribuidos en diferentes componentes de hardware y según como organicen pueden ser clasificados.
 
 ## Agenda
+
 1. [Sistemas mainframe](#1-sistemas-mainframes).
 1. [Sistemas centralizados](#2-sistemas-centralizados).
 1. [Sistemas distribuidos](#3-sistemas-distribuidos).
 1. [Sistemas descentralizados](#4-sistemas-descentralizados).
 
+
 <br>
+
 
 ---
 # 1. Sistemas Mainframes
