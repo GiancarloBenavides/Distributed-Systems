@@ -18,7 +18,7 @@ La administración y los servicios que ofrece un sistema de procesamiento digita
 
 ---
 # 1. Sistemas Mainframes
-Un sistemas operativo [mainframe][1] es una entidad que permite el procesamiento de información y soporta multiples usuarios en multiples terminales falsas, que no tienen capacidad de procesamiento.
+Un sistemas [mainframe][1] es una entidad que permite el procesamiento de información y soporta multiples usuarios en multiples terminales falsas, que no tienen capacidad de procesamiento.
 
 * ><i>"La ciencia es una ecuación diferencial;<br>
 la religión es una condición de frontera."</i><br>
@@ -28,10 +28,10 @@ la religión es una condición de frontera."</i><br>
 
 ## 1.1. Multiples terminales ✔
 
-![Imagen de sistemas distribuidos](../img/os-multi-station.svg "Sistemas mainframe")
+![Imagen de sistemas mainframe](../img/os-multi-station.svg "Sistemas mainframe")
 
 ## 1.2. Justificación ✔
-Con la necesidad de procesar multiples tareas en tiempo real se desarrolla los sistemas operativos mainframe para las grandes unidades de procesamiento.
+Con la necesidad de procesar multiples y diversas tareas en tiempo real se desarrolla los sistemas operativos mainframe para las grandes unidades de procesamiento.
 
 ## 1.3. Características ✔
 * Las terminales locales no realizan procesos.
@@ -65,7 +65,7 @@ Con la necesidad de procesar multiples tareas en tiempo real se desarrolla los s
 <br>
 
 # 2. Sistemas Centralizados
-Un sistemas operativo [centralizado][2] es una entidad que permite el procesamiento de información y soporta multiples usuarios en multiples terminales inteligentes, que intercambian información de cliente a servidor.
+Un sistemas [centralizado][2] es una entidad que permite el procesamiento de información y soporta multiples usuarios en multiples terminales inteligentes, que intercambian información de cliente a servidor.
 
 * ><i>"Es indigno que hombres notables pierdan su tiempo como esclavos del cálculo cuando podrían dejar ese trabajo en manos de cualquiera si se usaran las máquinas."</i><br>
 <cite style="display:block; text-align: right">[Gottfried Leibniz](https://es.wikipedia.org/wiki/Gottfried_Leibniz)</cite>
@@ -119,7 +119,7 @@ Con el rápido crecimiento de las redes y la necesidad de disminuir costos de la
 <br>
 
 # 3. Sistemas distribuidos
-Un sistemas operativo [distribuido][3] es una entidad que permite el procesamiento de información y soporta multiples usuarios en multiples terminales inteligentes, que intercambian información entre pares.
+Un sistemas [distribuido][3] es un grupo de entidades conectadas en red que se comportan como una y permiten el procesamiento de información de multiples usuarios en multiples terminales inteligentes.
 
 * ><i>"La gente con conocimientos técnicos está dispuesta a perdonar a un ordenador que se cuelga un par de veces al año, pero los usuarios normales no."</i><br><cite style="display:block; text-align: right">
 [Andrew S. Tanenbaum](https://es.wikipedia.org/wiki/Andrew_S._Tanenbaum)</cite>
@@ -130,11 +130,42 @@ Un sistemas operativo [distribuido][3] es una entidad que permite el procesamien
 
 ![Imagen de sistemas distribuidos](../img/os-distributed.svg "Sistemas Distribuidos")
 
+## 3.2. Justificación ✔
+Con el crecimiento de la [capacidad][32_1] de los canales en las redes y buscando una mayor eficiencia de procesamiento aparecen los sistemas distribuidos con capacidad de ejecutar procesos remotos de forma protegida y ordenada.
+
+[32_1]:https://es.wikipedia.org/wiki/Capacidad_de_canal
+
 ## 3.2. Características ✔
+* Procesamiento Cooperativo.
 * Los procesos locales y remotos no comparten memoria.
 * Los procesos remotos son asíncronos.
 * Capacidad de escalar verticalmente y horizontalmente.
 * Clientes desacoplados a un servidor, la falla de un terminal no afecta al sistema.
+
+## 2.3.1. Ventajas
+* 
+
+## 2.3.2. Desventajas
+* Comunicación mas costosa que [IPC][232_1]
+* Comunicación menos segura que [IPC][232_1]
+* 
+
+[232_1]:https://es.wikipedia.org/wiki/Comunicaci%C3%B3n_entre_procesos
+
+
+* Diseños basados en micro-computadoras son mas pequeños y baratos que mainframe.
+* Posibilita la distribución de una aplicación por capas.
+* Posibilidad de distintos tipos de clientes ([Liviano][231_1] - [Pesado][231_2] - [Híbrido][231_3])
+
+[231_1]:
+
+
+* Las terminales tienen funcionalidad limitada por el sistema.
+* El punto de fallo es el nodo principal ([Servidor][232_1]).
+* Baja o nula privacidad; el Servidor tiene acceso a toda la información de los clientes.
+
+
+
 
 ## 3.3 Ventajas y desventajas ✔
 
@@ -147,7 +178,7 @@ Un sistemas operativo [distribuido][3] es una entidad que permite el procesamien
 | Mas transparente | Análisis complejo  | 
 
 
-* Mayor seguridad que los sistemas descentralizados.
+
 <br>
 
 # 4. Sistemas descentralizados
