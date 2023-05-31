@@ -19,15 +19,19 @@ Los patrones arquitectónicos son aquellas soluciones recurrentes a un problema 
 # 3. Patrones para implementación
 
 ## 3.1 Patrones de descomposición ✔
-* Patron Domain Driven Design (DDD) - Para basar el diseño en el modelo.
+* Patron [DDD][31_1] (Domain Driven Design) - Para basar el diseño en el modelo.
+
+[31_1]:https://es.wikipedia.org/wiki/Dise%C3%B1o_guiado_por_el_dominio
 
 ## 3.2 Patrones de infraestructura ✔
 * Balanceo de carga
 
 ## 3.3 Patrones de integración ✔
-* Patron API Gateway - Para un único punto de entrada a varios micro-servicios.
+* Patron [API Gateway][32_1] - Para un único punto de entrada a varios micro-servicios.
 * Patron productor consumidor.
 * Patron Saga - Para transacciones distribuidas
+
+[32_1]:https://es.wikipedia.org/wiki/Gesti%C3%B3n_de_API
 
 ## 3.4 Patrones de acceso a datos ✔
 * Patron CQR - Para separar lectura/Escritura.
@@ -60,12 +64,3 @@ pip install Pyro5
 ---
 ## Mas Recursos
 - [Video curso introductorio de patrones para sistemas distribuidos](https://www.youtube.com/watch?v=a-2T09eV6uw&list=PLesmOrW3mp4jpSbdFMtVWINJZ7OLdSASS) (YuTube)
-
-
-- [Llamada a procedimiento remoto](https://es.wikipedia.org/wiki/Llamada_a_procedimiento_remotos) (Wikipedia)
-
-
-- [Distributed Component Object Model](https://es.wikipedia.org/wiki/Modelo_de_Objetos_de_Componentes_Distribuidos) (Wikipedia)
-- [Common Object Request Broker Architecture](https://es.wikipedia.org/wiki/CORBA) (Wikipedia)
-- [Remote Method Invocation](https://es.wikipedia.org/wiki/Java_Remote_Method_Invocation) (Wikipedia)
-- [Simple Object Access Protocol](https://es.wikipedia.org/wiki/Simple_Object_Access_Protocol) (Wikipedia)

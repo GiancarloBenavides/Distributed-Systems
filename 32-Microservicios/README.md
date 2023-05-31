@@ -59,3 +59,6 @@ pip install Pyro5
 ---
 ## Mas Recursos
 - [Micro-servicios vs Monolítico](https://www.youtube.com/watch?v=cq8OLr3AbwM) (YuTube)
+
+
+1. [SOA](#4-sistemas-descentralizados).
