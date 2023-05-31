@@ -31,7 +31,7 @@
 1. [Bases de datos Distribuidas][41]
 1. [Cluster][51]
 
-[11]:https://github.com/GiancarloBenavides/Sistemas-Distribuidos/tree/main/11-Sistemas-descentralizados
+[11]:https://github.com/GiancarloBenavides/Distributed-Systems/tree/main/11-Sistemas-Descentralizados
 [12]:https://github.com/GiancarloBenavides/Sistemas-Distribuidos/tree/main/12-Sistemas-Distribuidos
 [21]:https://github.com/GiancarloBenavides/Sistemas-Distribuidos/tree/main/21-Arquitecturas
 [31]:https://github.com/GiancarloBenavides/Sistemas-Distribuidos/tree/main/31-Ojetos-Distribuidos
