@@ -2,11 +2,10 @@
 <p><code>Fundamentos de sistemas Distribuidos</code></p>
 <p>Creado por <code>Giancarlo Ortiz</code> y <code>Diego Villareal</code> para explicar los fundamentos de los <code>Sistemas distribuidos</code></p>
 
-## Fundamentos
-La administración y los servicios que ofrece un sistema de procesamiento digital, pueden estar distribuidos en diferentes componentes de hardware y según como organicen pueden ser clasificados.
+## Arquitectura de software
+la arquitectura de software de un sistema es el conjunto de estructuras necesarias para dar sentido a un sistema, lo cual abarca los elementos del software, las relaciones entre ellos y las propiedades de ambos
 
 ## Agenda
-
 1. [Cliente-Servidor](#1-cliente-servidor).
 1. [Multi-capas](#2-multi-capa).
 1. [Red entre iguales](#3-red-entre-iguales).
