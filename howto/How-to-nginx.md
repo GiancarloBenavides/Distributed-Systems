@@ -15,7 +15,7 @@
 1. Crear un directorio usando el comando [mkdir][4] para el historial de eventos de uso y errores del servidor web.
 1. Crear un copia del [server block][6] por defecto de Nginx.
 1. Editar la copia del nuevo [server block][6] para enrutar una solicitud de dominio al recurso correspondiente.
-
+1. Habilitar el nuevo [server block][6] para que se incluya en la configuración de Nginx que se procesa al cargar el servidor.
 
 ---
 
@@ -27,16 +27,16 @@
 ### <code>Interfaz de linea de comandos</code>
 En los comandos reemplazar la cadena _"com.domain-name"_ con el nombre de dominio registrado en [notación de dominio inverso][cmd].
 
-```console
+```ps
 # Para actualizar los paquetes a su version mas reciente 
 sudo apt update
 sudo apt upgrade
 # Para instalar el servidor web
 sudo apt install nginx nano
 # Para crear la carpeta para alojar el sitio web
-$ sudo mkdir -p /var/www/domain-name.com/html
+sudo mkdir -p /var/www/domain-name.com/html
 # Para crear una carpeta para los archivos de registro, log; de errores de apache
-$ sudo mkdir -p /var/log/apache2/domain-name.com/html
+sudo mkdir -p /var/log/apache2/domain-name.com/html
 # Para crear un nuevo Server Block, copiar el archivo por defecto en otro archivo
 sudo cp /etc/nginx/sites-available/default /etc/nginx/sites-available/domain-name.com
 # Para editar el nuevo Server Block
