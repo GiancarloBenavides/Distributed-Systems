@@ -27,7 +27,7 @@
 ### <code>Interfaz de linea de comandos</code>
 En los comandos reemplazar la cadena _"com.domain-name"_ con el nombre de dominio registrado en [notación de dominio inverso][cmd].
 
-```sh
+```console
 # Para actualizar los paquetes a su version mas reciente 
 sudo apt update
 sudo apt upgrade
@@ -41,7 +41,8 @@ $ sudo mkdir -p /var/log/apache2/domain-name.com/html
 sudo cp /etc/nginx/sites-available/default /etc/nginx/sites-available/domain-name.com
 # Para editar el nuevo Server Block
 sudo nano /etc/nginx/sites-available/domain-name.com
-
+# Para habilitar el sitio creado
+sudo ln -s /etc/nginx/sites-available/example.com /etc/nginx/sites-enabled/
 ```
 <br>
 
