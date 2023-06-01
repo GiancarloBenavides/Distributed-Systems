@@ -27,7 +27,7 @@
 ### <code>Interfaz de linea de comandos</code>
 En los comandos reemplazar la cadena _"com.domain-name"_ con el nombre de dominio registrado en [notación de dominio inverso][cmd].
 
-```ps
+```sh
 # Para actualizar los paquetes a su version mas reciente 
 sudo apt update
 sudo apt upgrade

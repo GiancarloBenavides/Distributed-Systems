@@ -28,7 +28,7 @@
 ## [2. Comandos necesarios](#)  ✔
 ### <code>Interfaz de linea de comandos</code>
 
-```bash
+```console
 # Comandos para actualizar los paquetes a su version mas reciente 
 sudo apt update
 sudo apt upgrade
