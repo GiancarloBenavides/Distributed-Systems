@@ -32,8 +32,6 @@
 # Comandos para actualizar los paquetes a su version mas reciente 
 sudo apt update
 sudo apt upgrade
-sudo apt install nginx nano
-cd /etc/nginx/sites-available/
 ```
 
 [1]:https://portal.aws.amazon.com/gp/aws/developer/registration/index.html?pg=ec2price&cta=herobtn
@@ -53,6 +51,7 @@ cd /etc/nginx/sites-available/
 
 ---
 ## Mas Recursos
+- [WinSCP](https://es.wikipedia.org/wiki/WinSCP) (Wikipedia)
 - [Tutorial de introducción](https://docs.aws.amazon.com/es_es/AWSEC2/latest/UserGuide/EC2_GetStarted.html) (AWS - Docs)
 - [Instalar LAMP](https://docs.aws.amazon.com/es_es/AWSEC2/latest/UserGuide/tuts-lamp.html) (AWS - Docs)
 

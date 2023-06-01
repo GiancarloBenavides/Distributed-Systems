@@ -52,5 +52,6 @@ sudo apt upgrade
 
 ---
 ## Mas Recursos
+- [Amazon EC2](https://es.wikipedia.org/wiki/Amazon_EC2) (Wikipedia)
 - [Tutorial de introducción](https://docs.aws.amazon.com/es_es/AWSEC2/latest/UserGuide/EC2_GetStarted.html) (AWS - Docs)
 - [Instalar LAMP](https://docs.aws.amazon.com/es_es/AWSEC2/latest/UserGuide/tuts-lamp.html) (AWS - Docs)
