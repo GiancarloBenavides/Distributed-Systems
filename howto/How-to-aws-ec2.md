@@ -16,7 +16,7 @@
     1. Habilitar HTTP, HTTPS para [mapear los puertos][42] 80 y 443 según se requiera.
     1. Generar un par de [claves publicas][43] y guardar el archivo.
 
-1. Iniciar la instancia, esperar por el estado "[Running][5_1]" o en ejecución y esperar a que asigne una ip publica dinámica (cambiara con cada inicio de la instancia).
+1. Iniciar la instancia, esperar por el estado "[Running][5]" o en ejecución y esperar a que asigne una ip publica dinámica (cambiara con cada inicio de la instancia).
 1. Dar click en el ID de la instancia donde tenemos acceso a todos los detalles de la instancia en ejecución y de donde podemos conectar con la instancia desde el navegador web usando SSH sobre [webSocket][6].
 1. Luego de conectarse a la instancia ejecutar [update][7] para actualizar la lista de paquetes disponibles en los repositorios de ubuntu y [upgrade][7] para actualizar los paquetes que se necesite a su version mas reciente.
 1. Al finalizar las pruebas puede detener la instancia, las [instancias detenidas][8] no generan cargos.
