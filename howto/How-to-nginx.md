@@ -36,16 +36,20 @@ sudo apt upgrade
 sudo apt install nginx nano
 # Para crear la carpeta para alojar el sitio web
 sudo mkdir -p /var/www/domain-name.com/html
-# Para crear una carpeta para los archivos de registro, log; de errores de apache
-sudo mkdir -p /var/log/apache2/domain-name.com/html
+# Para crear una carpeta para los archivos de registro, log; de errores de Nginx
+sudo mkdir -p /var/log/nginx/domain-name.com
+# Para cambiar el propietario de el mismo directorio
+$ sudo chown -R www-data:www-data /var/www
+# Para verificar y/o modificar permisos del directorio publico de Nginx
+sudo chmod –R 755 /var/www
 # Para crear un nuevo Server Block, copiar el archivo por defecto en otro archivo
-sudo cp /etc/nginx/sites-available/default /etc/nginx/sites-available/domain-name.com
+sudo cp /etc/nginx/sites-available/default /etc/nginx/sites-available/domain-name.com.conf
 # Para editar el nuevo Server Block
-sudo nano /etc/nginx/sites-available/domain-name.com
+sudo nano /etc/nginx/sites-available/domain-name.com.conf
 # Para habilitar el sitio creado con un enlace simbólico en la carpeta de habilitados
-sudo ln -s /etc/nginx/sites-available/example.com /etc/nginx/sites-enabled
+sudo ln -s /etc/nginx/sites-available/domain-name.com.conf /etc/nginx/sites-enabled
 # Para deshabilitar el sitio por defecto eliminar el enlace simbólico
-rm /etc/nginx/sites-enabled/domain-name.com
+rm /etc/nginx/sites-enabled/domain-name.com.conf
 # Para revisar la configuración del servicio
 sudo nginx -t
 # Para aplicar la configuración del servicio
