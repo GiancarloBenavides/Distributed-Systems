@@ -13,7 +13,7 @@
 3. Instalar [nano][3] o el editor de texto de preferencia para editar los archivos de configuración de Nginx.
 4. Crear una estructura de directorios usando el comando [mkdir][4] para al los archivos del sitio que se desea servir con Nginx y para el historial de eventos de uso y errores del servidor web.
 5. Crear una copia del [server block][5] por defecto habilitado en Nginx, editar la copia del nuevo server block para enrutar una solicitud de dominio al recurso correspondiente y habilitarlo para que se incluya en la configuración de Nginx que se procesa al cargar el servidor.
-6. __Opcional:__ se pueden repetir los pasos 4-5 para crear varios server blocks y atender solicitudes de multiples dominios y subdominios en un único servidor físico.
+6. __Opcional:__ Si se requiere [alojamiento compartido][6] se pueden repetir los pasos 4-5 para crear varios server blocks y atender solicitudes de multiples dominios y subdominios en un único servidor físico.
 7. __Opcional:__ [eliminar][7] el enlace de la carpeta de habilitados para deshabilitar el server block por defecto de Nginx.
 8. Revisar y aplicar la [configuración][8] del servidor reiniciando o recargando el servicio.
 
@@ -67,18 +67,7 @@ sudo systemctl restart nginx
 sudo systemctl reload nginx
 sudo systemctl disable nginx
 sudo systemctl enable nginx
-# Para instalar el servidor web
 
-# Para crear la carpeta para alojar el sitio web
-sudo mkdir -p /var/www/domain-name.com/html
-# Para crear una carpeta para los archivos de registro, log; de errores de apache
-sudo mkdir -p /var/log/apache2/domain-name.com/html
-# Para crear un nuevo Server Block, copiar el archivo por defecto en otro archivo
-sudo cp /etc/nginx/sites-available/default /etc/nginx/sites-available/domain-name.com
-# Para editar el nuevo Server Block
-sudo nano /etc/nginx/sites-available/domain-name.com
-# Para habilitar el sitio creado
-sudo ln -s /etc/nginx/sites-available/example.com /etc/nginx/sites-enabled/
 ```
 
 [1]:https://ubuntu.com/server
@@ -86,12 +75,13 @@ sudo ln -s /etc/nginx/sites-available/example.com /etc/nginx/sites-enabled/
 [3]:https://manpages.ubuntu.com/manpages/kinetic/en/man1/nano.1.html
 [4]:https://manpages.ubuntu.com/manpages/kinetic/en/man1/mkdir.1.html
 [5]:https://www.nginx.com/resources/wiki/start/topics/examples/server_blocks/
-[6]:
+[6]:https://es.wikipedia.org/wiki/Alojamiento_compartido
 [7]:https://manpages.ubuntu.com/manpages/kinetic/en/man1/rm.1.html
 [8]:https://nginx.org/en/docs/switches.html
 
 [cmd]:https://es.wikipedia.org/wiki/Notaci%C3%B3n_de_nombre_de_dominio_inverso
 [smd]:https://es.wikipedia.org/wiki/Systemd
+
 <br>
 
 ---
