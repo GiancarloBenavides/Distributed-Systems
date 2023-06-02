@@ -7,6 +7,7 @@
 ---
 ## [1. Nginx](#)  ✔
 ### <code>Servidor web Ligero</code>
+Para construir un servicio de [alojamiento web][alw].
 
 1. Antes de instalar un nuevo paquete en [Ubuntu Server][1] siempre es recomendable actualizar la lista de paquetes disponibles y actualizar los paquetes instalados a su version mas reciente; para ello es necesario usar la herramienta de empaquetado disponible en la distribución Linux, en el caso de las distribuciones derivadas de Debian esta herramienta de linea de comandos es _Advanced Packaging Tool_. 
 2. Usando la herramienta [apt][2] instalar el paquete del servidor web Nginx; para ello no es necesario agregar fuentes a la lista ya que el paquete esta disponible en los repositorios oficiales de de la distribución.
@@ -41,9 +42,9 @@ sudo mkdir -p /var/log/apache2/domain-name.com/html
 sudo cp /etc/nginx/sites-available/default /etc/nginx/sites-available/domain-name.com
 # Para editar el nuevo Server Block
 sudo nano /etc/nginx/sites-available/domain-name.com
-# Para habilitar el sitio creado
+# Para habilitar el sitio creado con un enlace simbólico en la carpeta de habilitados
 sudo ln -s /etc/nginx/sites-available/example.com /etc/nginx/sites-enabled
-# Para deshabilitar el sitio por defecto
+# Para deshabilitar el sitio por defecto eliminar el enlace simbólico
 rm /etc/nginx/sites-enabled/domain-name.com
 # Para revisar la configuración del servicio
 sudo nginx -t
@@ -79,6 +80,7 @@ sudo systemctl enable nginx
 [7]:https://manpages.ubuntu.com/manpages/kinetic/en/man1/rm.1.html
 [8]:https://nginx.org/en/docs/switches.html
 
+[alw]:https://es.wikipedia.org/wiki/Alojamiento_web
 [cmd]:https://es.wikipedia.org/wiki/Notaci%C3%B3n_de_nombre_de_dominio_inverso
 [smd]:https://es.wikipedia.org/wiki/Systemd
 
