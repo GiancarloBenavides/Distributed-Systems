@@ -20,7 +20,7 @@ Para construir un servicio de [alojamiento web][alw].
 
 ---
 
->__Nota:__ una sola instancia nunca superara las 750 horas disponibles mensualmente, pero puedes crear varias instancias con un propósito especifico y alternar su uso sin superar los limites de la capa gratuita. 
+>__Nota:__ No hay limite de server blocks en una instancia de Nginx siempre que el servidor sea capaz de procesar el trafico demandado para todos los dominios. 
 
 <br>
 
