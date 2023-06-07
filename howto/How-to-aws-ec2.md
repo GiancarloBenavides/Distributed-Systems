@@ -10,12 +10,11 @@
 
 1. Crear un alias de correo para administrar AWS y con el crear una cuenta de en la [plataforma de amazon][1] (necesario tarjeta de crédito, se descontaran 3,000 pesos que luego se regresaran).
 1. Después de diligenciar los datos personales espera confirmación via SMS de la cuenta creada e [iniciamos sesión][2] en AWS, con el correo y la contraseña registrados.
-1. En la plataforma en el menu de servicios encontramos el panel de Elastic Compute, EC2;  para administrar varios [tipos de instancias][3] de servidores virtuales.
+1. En la plataforma en el menu de servicios/informática encontramos el panel de Elastic Compute, EC2;  para administrar varios [tipos de instancias][3] de servidores virtuales.
 1. Damos click en Lanzar instancia para crear una instancia t2.micro con Ubuntu Linux y hasta 30 GB de almacenamiento en SSD apta para [capa gratuita][4] (750 horas al mes y 100GB de ancho de banda por 12 meses)
     1. Habilitar trafico SSH para poder conectarse via [OpenSSH][41] a la instancia virtual.
     1. Habilitar HTTP, HTTPS para [mapear los puertos][42] 80 y 443 según se requiera.
     1. Generar un par de [claves publicas][43] y guardar el archivo.
-
 1. Iniciar la instancia, esperar por el estado "[Running][5]" o en ejecución y esperar a que asigne una ip publica dinámica (cambiara con cada inicio de la instancia).
 1. Dar click en el ID de la instancia donde tenemos acceso a todos los detalles de la instancia en ejecución y de donde podemos conectar con la instancia desde el navegador web usando SSH sobre [webSocket][6].
 1. Luego de conectarse a la instancia ejecutar [update][7] para actualizar la lista de paquetes disponibles en los repositorios de ubuntu y [upgrade][7] para actualizar los paquetes que se necesite a su version mas reciente.
