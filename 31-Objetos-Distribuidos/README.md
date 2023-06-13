@@ -50,12 +50,12 @@ El sistema de Invocación Remota de Métodos, [RMI][2]; de Java permite, a un ob
 * 2002: [FOSS][21_5] serialization, criptografía en J2SE 1.4.
 * 2004: [STUB][21_6] automático para RMI en J2SE 1.4.
 
-[11_1]:https://en.wikipedia.org/wiki/Java_version_history
-[11_2]:https://es.wikipedia.org/wiki/Java_Remote_Method_Invocation
-[11_3]:https://es.wikipedia.org/wiki/Java_IDL
-[11_4]:https://es.wikipedia.org/wiki/Java_SE
-[11_5]:https://es.wikipedia.org/wiki/Software_libre_y_de_c%C3%B3digo_abierto
-[11_6]:https://es.wikipedia.org/wiki/Stub
+[21_1]:https://en.wikipedia.org/wiki/Java_version_history
+[21_2]:https://es.wikipedia.org/wiki/Java_Remote_Method_Invocation
+[21_3]:https://es.wikipedia.org/wiki/Java_IDL
+[21_4]:https://es.wikipedia.org/wiki/Java_SE
+[21_5]:https://es.wikipedia.org/wiki/Software_libre_y_de_c%C3%B3digo_abierto
+[21_6]:https://es.wikipedia.org/wiki/Stub
 
 <br>
 
