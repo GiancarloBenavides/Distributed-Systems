@@ -57,6 +57,21 @@ El sistema de Invocación Remota de Métodos, [RMI][2]; de Java permite, a un ob
 [21_5]:https://es.wikipedia.org/wiki/Software_libre_y_de_c%C3%B3digo_abierto
 [21_6]:https://es.wikipedia.org/wiki/Stub
 
+2.2. Capas ✔
+* __Aplicación:__ RMI / cliente - servidor
+* __Proxy:__ stub - skeleton
+* __Referencia remota:__ conexión stream
+* __Transporte:__ JRMP / Java Remote Method Protocol
+
+2.3 Arquitecturas ✔
+
+![Imagen de Arquitectura RMI](../img/rmi-architecture.svg "Java Remote Method Protocol")
+
+2.4 Recursos ✔
+* [Tutorial Oficial](https://docs.oracle.com/javase/tutorial/rmi/index.html) (Oracle)
+* [Documentación Oficial](https://docs.oracle.com/javase/7/docs/technotes/guides/rmi/index.html) (Oracle)
+* 
+
 <br>
 
 # 3. [Remote Invocation Method](#agenda)
