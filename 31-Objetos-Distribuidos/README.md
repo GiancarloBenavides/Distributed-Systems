@@ -48,7 +48,7 @@ El sistema de Invocación Remota de Métodos, [RMI][2]; de Java permite, a un ob
 * 1998: [Java IDL][21_3] lanzamiento en J2SE 1.2 con compatibilidad CORBA.
 * 2000: [RMI+][21_4] nueva versión en J2SE 1.3 basada en CORBA.
 * 2002: [FOSS][21_5] serialization, criptografía en J2SE 1.4.
-* 2004: [STUB][21_6] automático para RMI en J2SE 1.4.
+* 2004: [STUB][21_6] automático para RMI en J2SE 1.5.
 
 [21_1]:https://en.wikipedia.org/wiki/Java_version_history
 [21_2]:https://es.wikipedia.org/wiki/Java_Remote_Method_Invocation
