@@ -101,30 +101,33 @@ La Arquitectura de agente de solicitud de objetos comunes, [CORBA][3]; de Java p
 3.1. Historia ✔
 * 1991: [C Mapping][31_1] CORBA version 1.0.
 * 1998: [Java Mapping][31_2] CORBA version 2.2.
-* 2002: [CORBA Component Model][31_3] CORBA version 3.0.
-* 2000: [RMI+][31_4] nueva versión en J2SE 1.3 basada en CORBA.
-* 2002: [FOSS][31_5] serialization, criptografía en J2SE 1.4.
-* 2004: [STUB][31_6] automático para RMI en J2SE 1.5.
+* 2000: [Bonobo][31_3] modelo CORBA incluido en Gnome 1.2.
+* 2002: [CORBA Component Model][31_4] CORBA version 3.0.
+* 2003: [Gnome][31_5] se usa de forma extensiva Bonobo.
+* 2008: [D-Bus][31_6] reemplaza a Bonobo en Gnome 2.22.
+
 
 [31_1]:https://es.wikipedia.org/wiki/C_(lenguaje_de_programaci%C3%B3n)/
 [31_2]:https://es.wikipedia.org/wiki/Java_(lenguaje_de_programaci%C3%B3n)/
-[31_3]:https://es.wikipedia.org/wiki/Java_IDL
-[31_4]:https://es.wikipedia.org/wiki/Java_SE
-[31_5]:https://es.wikipedia.org/wiki/Software_libre_y_de_c%C3%B3digo_abierto
-[31_6]:https://es.wikipedia.org/wiki/Stub
-
+[31_3]:https://en.wikipedia.org/wiki/Bonobo_(GNOME)/
+[31_4]:https://en.wikipedia.org/wiki/Common_Object_Request_Broker_Architecture#CORBA_Component_Model_(CCM)/
+[31_5]:https://en.wikipedia.org/wiki/GNOME_2
+[31_6]:https://es.wikipedia.org/wiki/D-Bus
 
 3.2. Capas ✔
-* __Object reference:__ RMI / cliente - servidor
-* __Stub:__ stub - skeleton
-* __Skeleton:__ conexión stream
+* __Object reference:__ Ubicación del objeto CORBA.
+* __Stub:__ interfaz declarada en [IDL][32_2] en el cliente.
+* __Skeleton:__ interfaz declarada en [IDL][32_2] en el servidor.
 * __Agente de solicitud de objetos:__ middleware [GIOP][32_4]
 
+[32_2]:https://es.wikipedia.org/wiki/Lenguaje_de_descripci%C3%B3n_de_interfaz
 [32_4]:https://es.wikipedia.org/wiki/GIOP
 
-3.3 Arquitectura JRMP ✔
+
+3.3 Arquitectura CORBA ✔
 
 ![Imagen de Arquitectura RMI](../img/corba-architecture.svg "Java Remote Method Protocol")
+
 
 3.4 Recursos ✔
 * [CORBA](https://en.m.wikipedia.org/wiki/Common_Object_Request_Broker_Architecture) (Wikipedia)
