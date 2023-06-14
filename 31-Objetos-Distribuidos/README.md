@@ -93,8 +93,8 @@ El sistema de Invocación Remota de Métodos, [RMI][2]; de Java permite, a un ob
 
 <br>
 
-# 3. [Remote Invocation Method](#agenda)
-La Arquitectura de agente de solicitud de objetos comunes, [CORBA][3]; de Java permite, a un objeto que se está ejecutando en una Máquina Virtual Java (VM), llamar a métodos de otro objeto que está en otra VM diferente. Esta tecnología está asociada al lenguaje de programación Java, es decir, que permite la comunicación entre objetos creados en este lenguaje.
+# 3. [Common Object Request Broker Architecture](#agenda)
+La Arquitectura de agente de solicitud de objetos comunes, [CORBA][3]; Es una especificación definida por la OMG (Object Management Group) diseñada para facilitar la comunicación entre plataformas distintas en sistemas distribuidos.
 
 [3]:https://es.wikipedia.org/wiki/CORBA
 
