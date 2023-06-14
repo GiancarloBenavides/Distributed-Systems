@@ -100,24 +100,24 @@ La Arquitectura de agente de solicitud de objetos comunes, [CORBA][3]; de Java p
 
 3.1. Historia ✔
 * 1991: [C Mapping][31_1] CORBA version 1.0.
-* 1998: [Java Mapping][21_2] CORBA version 2.2.
-* 2002: [CORBA Component Model][21_3] CORBA version 3.0.
-* 2000: [RMI+][21_4] nueva versión en J2SE 1.3 basada en CORBA.
-* 2002: [FOSS][21_5] serialization, criptografía en J2SE 1.4.
-* 2004: [STUB][21_6] automático para RMI en J2SE 1.5.
+* 1998: [Java Mapping][31_2] CORBA version 2.2.
+* 2002: [CORBA Component Model][31_3] CORBA version 3.0.
+* 2000: [RMI+][31_4] nueva versión en J2SE 1.3 basada en CORBA.
+* 2002: [FOSS][31_5] serialization, criptografía en J2SE 1.4.
+* 2004: [STUB][31_6] automático para RMI en J2SE 1.5.
 
-[21_1]:https://es.wikipedia.org/wiki/C_(lenguaje_de_programaci%C3%B3n)/
-[21_2]:https://es.wikipedia.org/wiki/Java_(lenguaje_de_programaci%C3%B3n)/
-[21_3]:https://es.wikipedia.org/wiki/Java_IDL
-[21_4]:https://es.wikipedia.org/wiki/Java_SE
-[21_5]:https://es.wikipedia.org/wiki/Software_libre_y_de_c%C3%B3digo_abierto
-[21_6]:https://es.wikipedia.org/wiki/Stub
+[31_1]:https://es.wikipedia.org/wiki/C_(lenguaje_de_programaci%C3%B3n)/
+[31_2]:https://es.wikipedia.org/wiki/Java_(lenguaje_de_programaci%C3%B3n)/
+[31_3]:https://es.wikipedia.org/wiki/Java_IDL
+[31_4]:https://es.wikipedia.org/wiki/Java_SE
+[31_5]:https://es.wikipedia.org/wiki/Software_libre_y_de_c%C3%B3digo_abierto
+[31_6]:https://es.wikipedia.org/wiki/Stub
 
 
 3.2. Capas ✔
-* __Aplicación:__ RMI / cliente - servidor
-* __Proxy:__ stub - skeleton
-* __Referencia remota:__ conexión stream
+* __Object reference:__ RMI / cliente - servidor
+* __Stub:__ stub - skeleton
+* __Skeleton:__ conexión stream
 * __Agente de solicitud de objetos:__ middleware [GIOP][32_4]
 
 [32_4]:https://es.wikipedia.org/wiki/GIOP
