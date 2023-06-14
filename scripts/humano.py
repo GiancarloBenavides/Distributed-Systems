@@ -1,43 +1,35 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-class Humano(): # Creamos la clase Humano
+class Humano():
+    """ Creamos la clase Humano. """
 
-    def __init__(self, edad:int, nombre:str, longitud:int): # Definimos el atributo edad y nombre
-        '''Inicializador de la clase '''
-        self.edad = edad # Definimos que el atributo edad
-        self.nombre = nombre # Definimos que el atributo nombre
-        self.cabello_longitud = longitud
+    def __init__(self, nombre: str, apellido: str, edad: int, longitud_cabello: int) -> None:
+        """Inicializa los atributos de la clase."""
+        self.nombre = nombre
+        self.apellido = apellido
+        self.edad = edad
+        self.longitud_cabello = longitud_cabello
 
-    def peluquear(self, cant:int):
-        '''método para reducir el cabello en una cantidad 
-        Requiere la cantidad'''
-        self.cabello_longitud=self.cabello_longitud-cant
-        return self.cabello_longitud
+    def cortar_cabello(self, cantidad: int = 2) -> int:
+        """ Corta el cabello de un humano en una cantidad. \n
+        \n    Args:\n    -------\n
+        * cantidad (int): \n\n
+        \n    Returns:\n    -------\n
+                Int
+        """
 
-    def get_name(self):
+        if self.longitud_cabello > cantidad:
+            self.longitud_cabello -= cantidad
+        return self.longitud_cabello
+
+    # Getters
+    def get_name(self) -> str:
         return self.get_name
-    
-    def get_age(self):
+
+    def get_age(self) -> int:
         return self.get_name
 
-
-pedro = Humano(31, "Pedro", 10) # Instancia
-
-pedro.get_name()
-pedro.nombre
-
-// "Pedro"
-
-pedro.get_age()
-pedro.edad
-
-// 31
-
-pedro.peluquear(5)
-
-// 5
-
-
-pedro.__new__ -> constructor
-pedro.
+    # Setters
+    def set_name(self, name: str) -> int:
+        self.get_name = name

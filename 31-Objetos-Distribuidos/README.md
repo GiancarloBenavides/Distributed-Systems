@@ -35,6 +35,22 @@ El Modelo de Objeto Componente Distribuido, [DCOM][1]; esta incluido en los sist
 [11_5]:https://en.m.wikipedia.org/wiki/.NET_Remoting
 [11_6]:https://es.wikipedia.org/wiki/Windows_Communication_Foundation
 
+1.2. Capas ✔
+* __Contratos:__ describe cada parámetro que compone cada mensaje.
+* __Tiempo de ejecución:__ describe comportamientos que ocurren durante la operación del servicio.
+* __Mensajes:__ describe los canales de comunicación.
+* __Alojamiento:__ describe el tipo de servicio.
+
+
+1.3 Arquitectura WCF ✔
+
+![Imagen de Arquitectura WCF](../img/wcf-architecture.gif "Windows Communication Foundation")
+
+1.4 Recursos ✔
+* [WCF](https://en.wikipedia.org/wiki/Windows_Communication_Foundation) (Wikipedia)
+* [Tutorial Oficial](https://learn.microsoft.com/en-us/dotnet/framework/wcf/getting-started-tutorial) (Microsoft)
+* [Documentación Oficial](https://learn.microsoft.com/en-us/dotnet/framework/wcf/) (Microsoft)
+
 <br>
 
 # 2. [Remote Invocation Method](#agenda)
@@ -57,17 +73,20 @@ El sistema de Invocación Remota de Métodos, [RMI][2]; de Java permite, a un ob
 [21_5]:https://es.wikipedia.org/wiki/Software_libre_y_de_c%C3%B3digo_abierto
 [21_6]:https://es.wikipedia.org/wiki/Stub
 
+
 2.2. Capas ✔
 * __Aplicación:__ RMI / cliente - servidor
 * __Proxy:__ stub - skeleton
 * __Referencia remota:__ conexión stream
 * __Transporte:__ JRMP / Java Remote Method Protocol
 
+
 2.3 Arquitectura JRMP ✔
 
 ![Imagen de Arquitectura RMI](../img/rmi-architecture.svg "Java Remote Method Protocol")
 
 2.4 Recursos ✔
+* [JRMI](https://en.wikipedia.org/wiki/Java_remote_method_invocation) (Wikipedia)
 * [Tutorial Oficial](https://docs.oracle.com/javase/tutorial/rmi/index.html) (Oracle)
 * [Documentación Oficial](https://docs.oracle.com/javase/7/docs/technotes/guides/rmi/index.html) (Oracle)
 
