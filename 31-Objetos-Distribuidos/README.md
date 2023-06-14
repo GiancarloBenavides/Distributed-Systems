@@ -103,7 +103,7 @@ La Arquitectura de agente de solicitud de objetos comunes, [CORBA][3]; Es una es
 * 1998: [Java Mapping][31_2] CORBA version 2.2.
 * 2000: [Bonobo][31_3] modelo CORBA incluido en Gnome 1.2.
 * 2002: [CORBA Component Model][31_4] CORBA version 3.0.
-* 2003: [Gnome][31_5] usa de forma extensiva Bonobo.
+* 2003: [Gnome 2][31_5] usa de forma extensiva Bonobo.
 * 2008: [D-Bus][31_6] reemplaza a Bonobo en Gnome 2.22.
 
 
