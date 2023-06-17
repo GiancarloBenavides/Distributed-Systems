@@ -23,57 +23,33 @@ la religión es una condición de frontera."</i><br>
 
 [1]:https://es.wikipedia.org/wiki/Cliente-servidor
 
-## 1.1. Multiples terminales ✔
+## 1.1. Servicios en internet ✔
 
 ![Imagen de sistemas mainframe](../img/client-server.svg "Sistemas mainframe")
 
-## 1.2. Justificación ✔
-Con la necesidad de procesar multiples y diversas tareas en tiempo real se desarrolla los sistemas operativos mainframe para las grandes unidades de procesamiento.
-
 ## 1.3. Características ✔
-* Las terminales locales no realizan procesos.
-* Todos los procesos se ejecutan en el mainframe y comparten memoria.
-* Los procesos pueden ejecutarse paralelos o en concurrencia.
-* Existe un reloj común y global entre las terminales y usuarios.
-* Capacidad de escalar unicamente verticalmente.
-* Terminales fuertemente acoplados al mainframe, si falla falla el sistema.
+* Los clientes hacen solicitudes de servicio.
+* Los servidores dan respuesta a solicitudes de servicio.
+* Los clientes inician la comunicación con el servidor.
+* Los Los servidores proveen el servicio.
 
-## 1.3.1. Ventajas
-* Alta velocidad procesamiento.
-* Entrada/Salida única.
-* No es necesaria la sincronización.
+## 1.4. Multiples clientes ✔
 
-## 1.3.2. Desventajas
-* Computador central de gran tamaño y muy costoso.
-* Las terminales carecen de funcionalidad por si mismas.
-* Un único punto de fallo.
-
-## 1.4. Ejemplos y aplicaciones ✔
-* __Software:__ [Z/OS][14_1] y [Z/VM][14_2] de IBM.
-* __Hardware:__ serie [Z][14_3] de IBM.
-* __Aplicaciones:__ [Redes neuronales][14_4] para [IA][14_5].
-
-[14_1]:https://es.wikipedia.org/wiki/Z/OS
-[14_2]:https://en.wikipedia.org/wiki/Z/VM
-[14_3]:https://en.wikipedia.org/wiki/IBM_Z
-[14_4]:https://es.wikipedia.org/wiki/Red_neuronal_artificial
-[14_5]:https://es.wikipedia.org/wiki/Inteligencia_artificial
+![Imagen de servidores con multiples clientes](../img/a-cliente-servidor.svg "Sistemas centralizados")
 
 <br>
 
 # 2. Multi-capas
-Una arquitectura [n-Tier][2] se refiere a sistemas donde el servidor reenvía  peticiones del cliente a otros servicios conectados.
+Una arquitectura [n-Tier][2] se refiere a sistemas donde el servidor reenvía peticiones del cliente a otros servicios conectados.
 
 * ><i>"Es indigno que hombres notables pierdan su tiempo como esclavos del cálculo cuando podrían dejar ese trabajo en manos de cualquiera si se usaran las máquinas."</i><br><cite style="display:block; text-align: right">[Gottfried Leibniz](https://es.wikipedia.org/wiki/Gottfried_Leibniz)</cite>
 
 [2]:https://es.wikipedia.org/wiki/Programaci%C3%B3n_por_capas
 
-## 2.1. Multiples clientes ✔
+## 2.1. Multiples servidores ✔
 
-![Imagen de sistemas centralizados](../img/os-centralized%20.svg "Sistemas centralizados")
+![Imagen de sistemas centralizados](../img/a-mulilayer-server.svg "Sistemas centralizados")
 
-## 2.2. Justificación ✔
-Con el rápido crecimiento de las redes y la necesidad de disminuir costos de las unidades centrales aparecen los micro-computadoras con capacidad de procesar multiples tareas en tiempo real y conectarse entre si para compartir recursos.
 
 ## 2.3. Características ✔
 * Los terminales locales realizan procesos propios.
@@ -84,33 +60,6 @@ Con el rápido crecimiento de las redes y la necesidad de disminuir costos de la
 * Clientes débilmente acoplados al servidor, si alguna capa falla puede fallar la aplicación.
 
 ## 2.3.1. Ventajas
-* Diseños basados en micro-computadoras son mas pequeños y baratos que mainframe.
-* Posibilita la distribución de una aplicación por capas.
-* Posibilidad de distintos tipos de clientes ([Liviano][231_1] - [Pesado][231_2] - [Híbrido][231_3])
-
-[231_1]:https://es.wikipedia.org/wiki/Cliente_liviano
-[231_2]:https://es.wikipedia.org/wiki/Cliente_pesado
-[231_3]:https://es.wikipedia.org/wiki/Cliente_h%C3%ADbrido
-
-## 2.3.2. Desventajas
-* Las terminales tienen funcionalidad limitada por el sistema.
-* Un punto de fallo critico es el nodo principal ([Servidor][232_1]).
-* Baja o nula privacidad; el Servidor tiene acceso a toda la información de los clientes.
-
-[232_1]:https://es.wikipedia.org/wiki/Servidor
-
-## 2.4. Ejemplos y aplicaciones ✔
-* __Software:__ el software libre [GNU/Linux][24_1] y [Windows][24_2] de Microsoft.
-* __Servidores:__ serie [PowerEdge][24_3] de DELL y la serie [ProLiant][24_4] de HP.
-* __Clientes:__ serie [Legion][24_5] de Lenovo.
-* __Aplicaciones:__ [Spotify][24_6] para distribución de música.
-
-[24_1]:https://es.wikipedia.org/wiki/GNU/Linux
-[24_2]:https://es.wikipedia.org/wiki/Microsoft_Windows
-[24_3]:https://en.wikipedia.org/wiki/List_of_PowerEdge_servers
-[24_4]:https://en.wikipedia.org/wiki/ProLiant
-[24_5]:https://en.wikipedia.org/wiki/Lenovo_Legion
-[24_6]:https://open.spotify.com/
 
 <br>
 
@@ -125,10 +74,6 @@ Una arquitectura [P2P][3] se refiere a sistemas donde no hay máquinas especiale
 
 ![Imagen de sistemas distribuidos](../img/os-distributed.svg "Sistemas Distribuidos")
 
-## 3.2. Justificación ✔
-Con el crecimiento de la [capacidad][32_1] de los canales en las redes y buscando una mayor eficiencia de procesamiento aparecen los sistemas distribuidos con capacidad de ejecutar procesos remotos de forma protegida y ordenada.
-
-[32_1]:https://es.wikipedia.org/wiki/Capacidad_de_canal
 
 ## 3.3. Características ✔
 * Procesamiento Cooperativo.
@@ -138,33 +83,10 @@ Con el crecimiento de la [capacidad][32_1] de los canales en las redes y buscand
 * Capacidad de escalar verticalmente y horizontalmente.
 * Clientes desacoplados a un servidor, la falla de un terminal no afecta al sistema.
 
-## 3.3.1. Ventajas
-* Tolerancia de fallos parciales.
-* Mas económico de escalar.
-* Mayor flexibilidad.
-
-## 3.3.2. Desventajas
-* Comunicación mas costosa y compleja que [IPC][232_1].
-* Comunicación menos segura que [IPC][232_1].
-* Posibles inconsistencias.
-
-[232_1]:https://es.wikipedia.org/wiki/Comunicaci%C3%B3n_entre_procesos
-
-## 3.4. Ejemplos y aplicaciones ✔
-* __Software:__ [Solaris][34_1] de Oracle y el software libre [Proxmox][34_2] .
-* __Hardware:__ [Clúster][34_3] de computadoras y computación en [Malla][34_4] computing.
-* __Aplicaciones:__ Servicio [DNS][34_5].
-
-[34_1]:https://es.wikipedia.org/wiki/Solaris_(sistema_operativo)/
-[34_2]:https://es.wikipedia.org/wiki/Proxmox_Virtual_Environment
-[34_3]:https://es.wikipedia.org/wiki/Cl%C3%BAster_de_computadoras
-[34_4]:https://es.wikipedia.org/wiki/Sistema_de_nombres_de_dominio
-[34_5]:https://es.wikipedia.org/wiki/Computaci%C3%B3n_en_malla
-
 <br>
 
 # 4. Cadena de bloques
-Un sistema [descentralizado][3] es un grupo de entidades que permiten el procesamiento de información intercambiando información entre pares, sin que exista un nodo único que toma las decisiones.  
+Un sistema [descentralizado][3] es un grupo de entidades que permiten el procesamiento de información intercambiando información entre pares, sin que exista un nodo único que toma las decisiones. 
 
 * ><i>"Si nadie se ríe de alguna de tus ideas, entonces significa que no estás siendo demasiado creativo."</i><br><cite style="display:block; text-align: right"> [Bill Gates](https://es.wikipedia.org/wiki/Bill_Gates)</cite>
 
@@ -174,8 +96,6 @@ Un sistema [descentralizado][3] es un grupo de entidades que permiten el procesa
 
 ![Imagen de sistemas distribuidos](../img/os-distributed.svg "Sistemas Distribuidos")
 
-## 4.2. Justificación ✔
-Contando con la ubicuidad de internet se posibilita buscar democratizar los recursos de internet y aumentar la eficiencia del procesamiento de datos con sistemas descentralizados con capacidad de procesar y almacenar información en multiples nodos simultáneamente.
 
 ## 4.3. Características ✔
 * Un solo nodo no conoce el estado de todo el sistema.
@@ -186,22 +106,6 @@ Contando con la ubicuidad de internet se posibilita buscar democratizar los recu
 * Capacidad de escalar horizontalmente con rapidez.
 * Clientes desacoplados.
 
-## 4.3.1. Ventajas
-* Colaborativo y descentralizado
-* Tolerancia a fallos.
-* Transparente y flexible.
-
-## 4.3.2. Desventajas
-* Complejidad.
-* Seguridad.
-* Confiabilidad.
-
-## 4.4. Ejemplos y aplicaciones ✔
-* __Software:__ [Cadena de bloques][44_1].
-* __Aplicaciones:__ [BitCoin][44_2].
-
-[44_1]:https://es.wikipedia.org/wiki/Cadena_de_bloques
-[44_2]:https://es.wikipedia.org/wiki/Bitcoin
 
 <br>
 
