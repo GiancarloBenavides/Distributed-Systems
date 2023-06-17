@@ -27,13 +27,13 @@ la religión es una condición de frontera."</i><br>
 
 ![Imagen de sistemas mainframe](../img/client-server.svg "Sistemas mainframe")
 
-## 1.3. Características ✔
+## 1.2. Características ✔
 * Los clientes hacen solicitudes de servicio.
 * Los servidores dan respuesta a solicitudes de servicio.
 * Los clientes inician la comunicación con el servidor.
 * Los Los servidores proveen el servicio.
 
-## 1.4. Multiples clientes ✔
+## 1.3. Multiples clientes ✔
 
 ![Imagen de servidores con multiples clientes](../img/a-cliente-servidor.svg "Sistemas centralizados")
 
@@ -51,15 +51,13 @@ Una arquitectura [n-Tier][2] se refiere a sistemas donde el servidor reenvía pe
 ![Imagen de sistemas centralizados](../img/a-mulilayer-server.svg "Sistemas centralizados")
 
 
-## 2.3. Características ✔
+## 2.2. Características ✔
 * Los terminales locales realizan procesos propios.
 * Los procesos locales y remotos no comparten memoria.
 * Los terminales locales y remotos comparten recursos en una red.
 * Los procesos remotos pueden ejecutarse sincronizados o pueden ser asíncronos.
 * Capacidad de escalar verticalmente y horizontalmente.
 * Clientes débilmente acoplados al servidor, si alguna capa falla puede fallar la aplicación.
-
-## 2.3.1. Ventajas
 
 <br>
 
@@ -75,7 +73,7 @@ Una arquitectura [P2P][3] se refiere a sistemas donde no hay máquinas especiale
 ![Imagen de sistemas distribuidos](../img/os-distributed.svg "Sistemas Distribuidos")
 
 
-## 3.3. Características ✔
+## 3.2. Características ✔
 * Procesamiento Cooperativo.
 * Los procesos locales y remotos no comparten memoria.
 * Los procesos remotos son asíncronos.
@@ -97,7 +95,7 @@ Un sistema [descentralizado][3] es un grupo de entidades que permiten el procesa
 ![Imagen de sistemas distribuidos](../img/os-distributed.svg "Sistemas Distribuidos")
 
 
-## 4.3. Características ✔
+## 4.2. Características ✔
 * Un solo nodo no conoce el estado de todo el sistema.
 * Cada nodo toma la decision mas conveniente.
 * La respuesta colectiva se logra en función del consenso entre pares.
