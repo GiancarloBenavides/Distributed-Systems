@@ -1,6 +1,6 @@
 # Sistemas Descentralizados
 <p><code>Fundamentos de sistemas Distribuidos</code></p>
-<p>Creado por <code>Giancarlo Ortiz</code> y <code>Diego Villareal</code> para explicar los fundamentos de los <code>Sistemas distribuidos</code></p>
+<p>Creado por <code>GncDev</code> para explicar los fundamentos de los <code>Sistemas distribuidos</code></p>
 
 ## Objetos Distribuidos
 En los sistemas Cliente/Servidor, un objeto distribuido es aquel que está gestionado por un servidor y sus clientes invocan sus métodos utilizando un «método de invocación remota». El cliente invoca el método mediante un mensaje al servidor que gestiona el objeto, se ejecuta el método del objeto en el servidor y el resultado se devuelve al cliente en otro mensaje.
@@ -133,6 +133,7 @@ La Arquitectura de agente de solicitud de objetos comunes, [CORBA][3]; Es una es
 * [CORBA](https://en.m.wikipedia.org/wiki/Common_Object_Request_Broker_Architecture) (Wikipedia)
 * [Pagina Oficial](https://www.corba.org/index.htm) (CORBA)
 * [Especificación Oficial](https://www.omg.org/spec/CCM/) (OMG)
+
 
 <br>
 
