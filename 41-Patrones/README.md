@@ -1,6 +1,6 @@
 # Sistemas Descentralizados
 <p><code>Fundamentos de sistemas Distribuidos</code></p>
-<p>Creado por <code>Giancarlo Ortiz</code> y <code>Diego Villareal</code> para explicar los fundamentos de los <code>Sistemas distribuidos</code></p>
+<p>Creado por <code>GncDev</code> para explicar los fundamentos de los <code>Sistemas distribuidos</code>.</p>
 
 ## Patrones arquitectónicos para sistemas distribuidos
 Los patrones arquitectónicos son aquellas soluciones recurrentes a un problema de diseño entre componentes y su relación entre ellos y puede estar conformada de uno o más patrones de diseño.
@@ -82,7 +82,7 @@ pip install Pyro5
 - [Video curso introductorio de patrones para sistemas distribuidos](https://www.youtube.com/watch?v=a-2T09eV6uw&list=PLesmOrW3mp4jpSbdFMtVWINJZ7OLdSASS) (YuTube)
 
 
-
+---
 
 Redis 
 Shardear
