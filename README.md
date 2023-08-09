@@ -26,7 +26,6 @@
     1. [DB Distribuidas][51]
     1. [Cluster][52]
     1. [Grid][53]
-    
 
 
 [11]:https://github.com/GiancarloBenavides/Distributed-Systems/tree/main/11-Fundamentos
@@ -37,3 +36,4 @@
 [51]:https://github.com/GiancarloBenavides/Distributed-Systems/tree/main/51-Bases-Distribuidas
 [52]:https://github.com/GiancarloBenavides/Distributed-Systems/tree/main/52-Sistemas-Distribuidos
 [53]:https://github.com/GiancarloBenavides/Distributed-Systems/tree/main/53-Cluster
+
