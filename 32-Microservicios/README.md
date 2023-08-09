@@ -1,6 +1,6 @@
 # Sistemas Descentralizados
 <p><code>Fundamentos de sistemas Distribuidos</code></p>
-<p>Creado por <code>Giancarlo Ortiz</code> y <code>Diego Villareal</code> para explicar los fundamentos de los <code>Sistemas distribuidos</code></p>
+<p>Creado por <code>GncDev</code> para explicar los fundamentos de los <code>Sistemas distribuidos</code>.</p>
 
 ## Micro-Servicios
 es un enfoque para el desarrollo de software que consiste en construir una aplicación como un conjunto de pequeños servicios, los cuales se ejecutan en su propio proceso y se comunican con mecanismos ligeros como una API de recursos HTTP.
