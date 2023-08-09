@@ -1,6 +1,6 @@
 # Sistemas Descentralizados
 <p><code>Fundamentos de sistemas Distribuidos</code></p>
-<p>Creado por <code>Giancarlo Ortiz</code> y <code>Diego Villareal</code> para explicar los fundamentos de los <code>Sistemas distribuidos</code></p>
+<p>Creado por <code>GncDev</code> para explicar los fundamentos de los <code>Sistemas distribuidos</code>.</p>
 
 ## Fundamentos
 La administración y los servicios que ofrece un sistema de procesamiento digital, pueden estar distribuidos en diferentes componentes de hardware y con diferentes niveles de acoplamiento entre ellos.
