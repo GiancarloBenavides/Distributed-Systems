@@ -15,7 +15,7 @@ La administración y los servicios que ofrece un sistema de procesamiento digita
 <br>
 
 ---
-# 1. Sistemas Mainframes
+# 1. [Sistemas Mainframes](#agenda)
 Un sistema [mainframe][1] es una entidad que permite el procesamiento de información y soporta multiples usuarios en multiples terminales falsas, que no tienen capacidad de procesamiento.
 
 * ><i>"La ciencia es una ecuación diferencial;<br>
@@ -43,13 +43,13 @@ Con la necesidad de procesar multiples y diversas tareas en tiempo real se desar
 * Terminales fuertemente acoplados al mainframe, si falla falla el sistema.
 
 
-## 1.3.1. Ventajas
+## 1.3.1. Ventajas.
 * Alta velocidad procesamiento.
 * Entrada/Salida única.
 * No es necesaria la sincronización.
 
 
-## 1.3.2. Desventajas
+## 1.3.2. Desventajas.
 * Computador central de gran tamaño y muy costoso.
 * Las terminales carecen de funcionalidad por si mismas.
 * Un único punto de fallo.
@@ -68,7 +68,7 @@ Con la necesidad de procesar multiples y diversas tareas en tiempo real se desar
 
 <br>
 
-# 2. Sistemas Centralizados
+# 2. [Sistemas Centralizados](#agenda)
 Un sistema [centralizado][2] es una entidad que permite el procesamiento de información y soporta multiples usuarios en multiples terminales inteligentes, que intercambian información de cliente a servidor.
 
 * ><i>"Es indigno que hombres notables pierdan su tiempo como esclavos del cálculo cuando podrían dejar ese trabajo en manos de cualquiera si se usaran las máquinas."</i><br><cite style="display:block; text-align: right">[Gottfried Leibniz](https://es.wikipedia.org/wiki/Gottfried_Leibniz)</cite>
@@ -94,7 +94,7 @@ Con el rápido crecimiento de las redes y la necesidad de disminuir costos de la
 * Clientes débilmente acoplados al servidor, si alguna capa falla puede fallar la aplicación.
 
 
-## 2.3.1. Ventajas
+## 2.3.1. Ventajas.
 * Diseños basados en micro-computadoras son mas pequeños y baratos que mainframe.
 * Posibilita la distribución de una aplicación por capas.
 * Posibilidad de distintos tipos de clientes ([Liviano][231_1] - [Pesado][231_2] - [Híbrido][231_3])
@@ -104,7 +104,7 @@ Con el rápido crecimiento de las redes y la necesidad de disminuir costos de la
 [231_3]:https://es.wikipedia.org/wiki/Cliente_h%C3%ADbrido
 
 
-## 2.3.2. Desventajas
+## 2.3.2. Desventajas.
 * Las terminales tienen funcionalidad limitada por el sistema.
 * Un punto de fallo critico es el nodo principal ([Servidor][232_1]).
 * Baja o nula privacidad; el Servidor tiene acceso a toda la información de los clientes.
@@ -127,7 +127,7 @@ Con el rápido crecimiento de las redes y la necesidad de disminuir costos de la
 
 <br>
 
-# 3. Sistemas distribuidos
+# 3. [Sistemas distribuidos](#agenda)
 Un sistema [distribuido][3] es un grupo de entidades conectadas en red que se comportan como una y permiten el procesamiento de información de multiples usuarios en multiples terminales inteligentes.
 
 * ><i>"La gente con conocimientos técnicos está dispuesta a perdonar a un ordenador que se cuelga un par de veces al año, pero los usuarios normales no."</i><br><cite style="display:block; text-align: right"> [Andrew S. Tanenbaum](https://es.wikipedia.org/wiki/Andrew_S._Tanenbaum)</cite>
@@ -156,13 +156,13 @@ Con el crecimiento de la [capacidad][32_1] de los canales en las redes y buscand
 * Capacidad de escalar verticalmente y horizontalmente.
 * Clientes desacoplados a un servidor, la falla de un terminal no afecta al sistema.
 
-## 3.3.1. Ventajas
+## 3.3.1. Ventajas.
 * Tolerancia de fallos parciales.
 * Mas económico de escalar.
 * Mayor flexibilidad.
 
 
-## 3.3.2. Desventajas
+## 3.3.2. Desventajas.
 * Comunicación mas costosa y compleja que [IPC][232_1].
 * Comunicación menos segura que [IPC][232_1].
 * Posibles inconsistencias.
@@ -183,7 +183,7 @@ Con el crecimiento de la [capacidad][32_1] de los canales en las redes y buscand
 
 <br>
 
-# 4. Sistemas descentralizados
+# 4. [Sistemas descentralizados](#agenda)
 Un sistema [descentralizado][4] es un grupo de entidades que permiten el procesamiento de información intercambiando información entre pares, sin que exista un nodo único que toma las decisiones.  
 
 * ><i>"Si nadie se ríe de alguna de tus ideas, entonces significa que no estás siendo demasiado creativo."</i><br><cite style="display:block; text-align: right"> [Bill Gates](https://es.wikipedia.org/wiki/Bill_Gates)</cite>
@@ -210,13 +210,13 @@ Contando con la ubicuidad de internet se posibilita buscar democratizar los recu
 * Clientes desacoplados.
 
 
-## 4.3.1. Ventajas
+## 4.3.1. Ventajas.
 * Colaborativo y descentralizado
 * Tolerancia a fallos.
 * Transparente y flexible.
 
 
-## 4.3.2. Desventajas
+## 4.3.2. Desventajas.
 * Complejidad.
 * Seguridad.
 * Confiabilidad.
