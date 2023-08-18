@@ -7,6 +7,7 @@ es un enfoque para el desarrollo de software que consiste en construir una aplic
 
 
 ## Agenda
+
 1. [Micro-servicios](#2-sistemas-centralizados).
 1. [Micro-frontend](#3-sistemas-distribuidos).
 
