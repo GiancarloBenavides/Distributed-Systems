@@ -31,7 +31,7 @@
 
 [11]:https://github.com/GiancarloBenavides/Distributed-Systems/tree/main/11-Fundamentos
 [21]:https://github.com/GiancarloBenavides/Distributed-Systems/tree/main/21-Arquitecturas
-[31]:https://github.com/GiancarloBenavides/Distributed-Systems/tree/main/31-Ojetos-distribuidos
+[31]:https://github.com/GiancarloBenavides/Distributed-Systems/tree/main/31-Ojetos
 [32]:https://github.com/GiancarloBenavides/Distributed-Systems/tree/main/32-Distribución-horizontal
 [33]:https://github.com/GiancarloBenavides/Distributed-Systems/tree/main/33-Distribución-vertical
 [41]:https://github.com/GiancarloBenavides/Distributed-Systems/tree/main/41-Patrones
