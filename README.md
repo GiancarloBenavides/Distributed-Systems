@@ -20,7 +20,7 @@
 1. [Arquitecturas de software][21]
 1. [Estilos arquitectónicos distribuidos][31]
     1. [Objetos distribuidos][31]
-    1. [Distribución horizontal][33]
+    1. [Distribución horizontal][32]
     1. [Distribución Vertical][33]
 1. [Patrones arquitectónicos para sistemas distribuidos][41]
 1. [Aplicaciones][51]
