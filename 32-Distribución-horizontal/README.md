@@ -7,53 +7,95 @@ es un enfoque para el desarrollo de software que consiste en construir una aplic
 
 
 ## Agenda
-1. [Procesamiento en los servidores](#1-procesamiento-en-los-servidores).
-1. [CSR](#1-csr).
-1. [Cloud computing](#2-micro-frontend).
-1. [Serverless computing](#2-micro-frontend).
+1. [Procesamiento local](#1-procesamiento-local).
+1. [Procesamiento remoto](#2-procesamiento-remoto).
 
 <br>
 
-
-
-
-https://es.wikipedia.org/wiki/Serverless_computing
-
-
 ---
-# 1. [Procesamiento en los servidores](#agenda)
-Una arquitectura de [micro-servicios][1] es un enfoque para el desarrollo de software que consiste en construir una aplicación como un conjunto de pequeños servicios, los cuales se ejecutan en su propio proceso y se comunican con mecanismos ligeros como una API de recursos HTTP.
+# 1. [Procesamiento local](#agenda)
+Una modelo de [Procesamiento local][1] es un enfoque para el que las capas de software se procesan unicamente en servidores controlados por el desarrollador.
 
 * ><i>"La ciencia es una ecuación diferencial;<br>
 la religión es una condición de frontera."</i><br>
 <cite style="display:block; text-align: right">[Alan Turing](https://es.wikipedia.org/wiki/Alan_Turing)</cite>
 
-[1]:https://es.wikipedia.org/wiki/Arquitectura_de_microservicios
+[1]:https://svelte.dev/docs/client-side-component-api
 
-## 1.1. SSR
-
-
-### 1.1.1. Capas procesadas ✔
-* Presentación
-* Aplicación
-* Dominio
-* Persistencia
+## 1.1. Características ✔
+* Puede ser distribuida en el servidor.
+* Todos los datos se procesan en los servidores.
+* La visualización en pantalla es un reflejo de la estación remota.
+* Un cambio en el cliente requiere nuevos datos de la capa.
+* Los datos se entregan al cliente en estado final.
 
 
-# 2. [Micro-frontend](#agenda)
-Una arquitectura [micro-frontend][2] es un enfoque para el desarrollo de software que consiste en construir una aplicación como un conjunto de pequeños servicios, los cuales se ejecutan en su propio proceso y se comunican con mecanismos ligeros como una API de recursos HTTP.
+## 1.1.1. Ventajas ✔
+* Control de la seguridad.
+* Control del rendimiento.
+* Control del costo. 
+* Pocas dependencias.
+
+
+## 1.1.2. Desventajas ✔
+* Mas difíciles de mantener.
+* Mas difíciles de escalar.
+* Menos flexibles.
+* Mas complejas.
+
+
+## 1.2. Ejemplos ✔
+* [SSG][12_1] - static site generation
+* [SSR][12_2] - server side rendering
+
+[12_1]:https://es.wikipedia.org/wiki/P%C3%A1gina_web_est%C3%A1tica
+[12_2]:https://es.wikipedia.org/wiki/P%C3%A1gina_web_din%C3%A1mica
+
+<br>
+
+# 2. [Procesamiento remoto](#agenda)
+Una modelo de [Procesamiento remoto][2] es un enfoque para el que algunas capas de software se procesan en servidores remotos no controlados por el desarrollador o en los dispositivos cliente.
 
 * ><i>"La ciencia es una ecuación diferencial;<br>
 la religión es una condición de frontera."</i><br>
 <cite style="display:block; text-align: right">[Alan Turing](https://es.wikipedia.org/wiki/Alan_Turing)</cite>
 
-[2]:https://es.wikipedia.org/wiki/Microfrontend
+[2]:https://vuejs.org/guide/scaling-up/ssr.html
+
+
+## 2.1. Características ✔
+* Distribuidas.
+* Progresivas.
+* Socket.
+* Ajax 
+
+
+## 2.1.1. Ventajas ✔
+* Livianas - Menos demanda de servicios de red.
+* Ágiles - Entrega temprana.
+* Menor infraestructura.
+* Reactivas.
+
+
+## 2.1.2. Desventajas ✔
+* Multiples puntos de fallo.
+* Multiples dependencias.
+* Menor libertad.
+* Menor Privacidad.
+
+
+## 2.2. Ejemplos ✔
+* [CSR][22_1] - client side rendering
+* [CC][22_2] - cloud computing
+* [SC][22_3] - serverless computing
+
+[22_1]:https://es.wikipedia.org/wiki/Single-page_application
+[22_2]:https://es.wikipedia.org/wiki/Computaci%C3%B3n_en_la_nube
+[22_3]:https://es.wikipedia.org/wiki/Serverless_computing
 
 <br>
 
 ---
 ## Mas Recursos
-- [Arquitectura orientada a servicios-SOA](https://es.wikipedia.org/wiki/Arquitectura_orientada_a_servicios) (Wikipedia)
+- [Alojamiento en Internet](https://es.wikipedia.org/wiki/Servicio_de_alojamiento_de_Internet) (Wikipedia)
 - [Servicio WEB](https://es.wikipedia.org/wiki/Servicio_web) (Wikipedia)
-- [Protocolo simple de acceso a objetos - SOAP](https://es.wikipedia.org/wiki/Simple_Object_Access_Protocol) (Wikipedia)
-- [Micro-servicios vs Monolítico](https://www.youtube.com/watch?v=cq8OLr3AbwM) (YuTube)

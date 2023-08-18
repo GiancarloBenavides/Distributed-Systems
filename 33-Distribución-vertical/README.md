@@ -37,6 +37,5 @@ la religión es una condición de frontera."</i><br>
 ---
 ## Mas Recursos
 - [Arquitectura orientada a servicios-SOA](https://es.wikipedia.org/wiki/Arquitectura_orientada_a_servicios) (Wikipedia)
-- [Servicio WEB](https://es.wikipedia.org/wiki/Servicio_web) (Wikipedia)
 - [Protocolo simple de acceso a objetos - SOAP](https://es.wikipedia.org/wiki/Simple_Object_Access_Protocol) (Wikipedia)
 - [Micro-servicios vs Monolítico](https://www.youtube.com/watch?v=cq8OLr3AbwM) (YuTube)
