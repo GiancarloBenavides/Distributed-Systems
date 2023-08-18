@@ -61,7 +61,22 @@ Una arquitectura [n-Tier][2] o Multi-capas se refiere a sistemas donde un servid
 * Clientes débilmente acoplados al servidor, si alguna capa falla puede fallar la aplicación.
 
 
-## 2.2. Multiples servidores en cascada ✔
+## 2.2. Ejemplos ✔
+* [Frontend][22_1] - [Backend][22_2] : [2][22_3] capas.
+* [Presentación][22_4] - [Lógica][22_5] - [Datos][22_7] : [3][22_8] capas.
+* [Presentación][22_4] - [Aplicación][22_5] - [Dominio][22_6] - [Persistencia][22_7] : [4][22_9] capas.
+
+[22_1]:https://es.wikipedia.org/wiki/Desarrollo_web_Front-end
+[22_2]:https://es.wikipedia.org/wiki/Front_end_y_back_end
+[22_3]:https://es.wikipedia.org/wiki/Front_end_y_back_end
+[22_4]:https://es.wikipedia.org/wiki/Interfaz_de_usuario
+[22_5]:https://en.wikipedia.org/wiki/Business_logic
+[22_6]:https://en.wikipedia.org/wiki/Domain_(software_engineering)#
+[22_7]:https://en.wikipedia.org/wiki/Data_access
+[22_8]:https://en.wikipedia.org/wiki/Multitier_architecture#Three-tier_architecture
+[22_9]:https://es.wikipedia.org/wiki/Arquitectura_multicapa
+
+## 2.3. Multiples servidores en cascada ✔
 
 ![Imagen de sistemas centralizados](../img/a-mulilayer-server.svg "Sistemas centralizados")
 
