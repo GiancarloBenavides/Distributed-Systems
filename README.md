@@ -15,25 +15,36 @@
 
 ---
 ## Agenda
-1. [Sistemas Descentralizados][11]
+1. [Sistemas descentralizados][11]
     1. [Fundamentos][11]
 1. [Arquitecturas de software][21]
 1. [Estilos arquitectónicos distribuidos][31]
-    1. [Objetos Distribuidos][31]
-    1. [Micro-servicios][32]
+    1. [Objetos distribuidos][31]
+    1. [Distribución horizontal][33]
+    1. [Distribución Vertical][33]
 1. [Patrones arquitectónicos para sistemas distribuidos][41]
 1. [Aplicaciones][51]
-    1. [DB Distribuidas][51]
-    1. [Cluster][52]
-    1. [Grid][53]
+    1. [Bases de datos distribuidas][51]
+    1. [Cluster][51]
+    1. [Grid][51]
 
 
 [11]:https://github.com/GiancarloBenavides/Distributed-Systems/tree/main/11-Fundamentos
 [21]:https://github.com/GiancarloBenavides/Distributed-Systems/tree/main/21-Arquitecturas
-[31]:https://github.com/GiancarloBenavides/Distributed-Systems/tree/main/31-Ojetos-Distribuidos
-[32]:https://github.com/GiancarloBenavides/Distributed-Systems/tree/main/32-Micro-Servicios
+[31]:https://github.com/GiancarloBenavides/Distributed-Systems/tree/main/31-Ojetos-distribuidos
+[32]:https://github.com/GiancarloBenavides/Distributed-Systems/tree/main/32-Distribución-horizontal
+[33]:https://github.com/GiancarloBenavides/Distributed-Systems/tree/main/33-Distribución-vertical
 [41]:https://github.com/GiancarloBenavides/Distributed-Systems/tree/main/41-Patrones
-[51]:https://github.com/GiancarloBenavides/Distributed-Systems/tree/main/51-Bases-Distribuidas
-[52]:https://github.com/GiancarloBenavides/Distributed-Systems/tree/main/52-Sistemas-Distribuidos
-[53]:https://github.com/GiancarloBenavides/Distributed-Systems/tree/main/53-Cluster
+[51]:https://github.com/GiancarloBenavides/Distributed-Systems/tree/main/51-Aplicaciones
 
+
+</br>
+
+---
+
+### Objetivo
+Desarrollar en el estudiante las competencias en el desarrollo de aplicaciones distribuidas que le permita atender la alta demanda de aplicaciones en entornos web y arquitecturas cliente/servidor y su implementación para Big Data.
+
+
+### Metodología
+De conformidad con la importancia de desarrollar competencias en el proceso académico y la consolidación de los conceptos en casos de uso real se ha diseñado actividades de reflexión y evaluación por cada secuencia de aprendizaje; donde cada una de ellas pone en práctica conceptos fundamentales relacionados con el desarrollo de la cátedra e incluidos en la previa exposición del contenido temático de la asignatura.
