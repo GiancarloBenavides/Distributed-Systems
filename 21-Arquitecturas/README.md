@@ -145,7 +145,6 @@ Un sistema [descentralizado][42] es un grupo de entidades que permiten el proces
 
 ![Imagen de sistemas distribuidos](../img/os-distributed.svg "Sistemas Distribuidos")
 
-
 <br>
 
 ---
