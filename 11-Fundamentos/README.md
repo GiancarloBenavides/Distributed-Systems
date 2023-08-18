@@ -237,4 +237,3 @@ Contando con la ubicuidad de internet se posibilita buscar democratizar los recu
 - [Computación distribuida](https://es.wikipedia.org/wiki/Computaci%C3%B3n_distribuida) (Wikipedia)
 - [Problema de la programación distribuida](https://www.youtube.com/watch?v=ADp7_3ygB2M) (YuTube)
 - [Problema de los dos generales](https://es.wikipedia.org/wiki/Problema_de_los_dos_generales) (Wikipedia)
-- [Cadena de bloques](https://es.wikipedia.org/wiki/Cadena_de_bloques) (Wikipedia)
