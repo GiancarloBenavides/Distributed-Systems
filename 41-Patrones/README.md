@@ -7,9 +7,6 @@ Los patrones arquitectónicos son aquellas soluciones recurrentes a un problema 
 
 
 ## Agenda
-1. [Sistemas mainframe](#1-sistemas-mainframes).
-1. [Sistemas centralizados](#2-sistemas-centralizados).
-
 1. [Patrones para implementación](#3-sistemas-distribuidos).
 1. [Recursos para implementación](#4-sistemas-descentralizados).
 

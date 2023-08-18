@@ -7,10 +7,8 @@ es un enfoque para el desarrollo de software que consiste en construir una aplic
 
 
 ## Agenda
-1. [Sistemas mainframe](#1-sistemas-mainframes).
-1. [Sistemas centralizados](#2-sistemas-centralizados).
-1. [Patrones para implementación](#3-sistemas-distribuidos).
-1. [Recursos para implementación](#4-sistemas-descentralizados).
+1. [Micro-servicios](#2-sistemas-centralizados).
+1. [Micro-frontend](#3-sistemas-distribuidos).
 
 <br>
 
