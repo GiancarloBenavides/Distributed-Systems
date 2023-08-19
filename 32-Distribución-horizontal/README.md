@@ -30,19 +30,14 @@ la religión es una condición de frontera."</i><br>
 * Los datos se entregan al cliente en estado final.
 
 
-## 1.1.1. Ventajas ✔
-* Control de la seguridad.
-* Control del rendimiento.
-* Control del costo. 
-* Pocas dependencias.
+### 1.1.1. Ventajas/Desventajas.
+|Ventajas|Desventajas|
+|:--|:--|
+|Control de la seguridad.</br>Control del rendimiento.</br>Control del costo.</br>Pocas dependencias.|Mas difíciles de mantener.</br> Mas difíciles de escalar.</br>Menos flexibles.</br>Mas complejas.|
 
+### 1.1.2. Arquitectura
 
-## 1.1.2. Desventajas ✔
-* Mas difíciles de mantener.
-* Mas difíciles de escalar.
-* Menos flexibles.
-* Mas complejas.
-
+![Imagen de sistemas centralizados](../img/a-mulilayer-server.svg "Sistemas centralizados")
 
 ## 1.2. Ejemplos ✔
 * [SSG][12_1] - static site generation
@@ -70,19 +65,22 @@ la religión es una condición de frontera."</i><br>
 * Ajax 
 
 
-## 2.1.1. Ventajas ✔
+### 2.1.1. Ventajas ✔
 * Livianas - Menos demanda de servicios de red.
 * Ágiles - Entrega temprana.
 * Menor infraestructura.
 * Reactivas.
 
 
-## 2.1.2. Desventajas ✔
+### 2.1.2. Desventajas ✔
 * Multiples puntos de fallo.
 * Multiples dependencias.
 * Menor libertad.
 * Menor Privacidad.
 
+### 2.1.3. Arquitectura
+
+![Imagen de sistemas centralizados](../img/a-mulilayer-server.svg "Sistemas centralizados")
 
 ## 2.2. Ejemplos ✔
 * [CSR][22_1] - client side rendering
