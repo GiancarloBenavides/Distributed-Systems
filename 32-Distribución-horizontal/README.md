@@ -16,9 +16,9 @@ es un enfoque para el desarrollo de software que consiste en construir una aplic
 # 1. [Procesamiento local](#agenda)
 Una modelo de [Procesamiento local][1] es un enfoque para el que las capas de software se procesan unicamente en servidores controlados por el desarrollador.
 
-* ><i>"La ciencia es una ecuación diferencial;<br>
-la religión es una condición de frontera."</i><br>
-<cite style="display:block; text-align: right">[Alan Turing](https://es.wikipedia.org/wiki/Alan_Turing)</cite>
+* ><i>"Las grandes oportunidades, solo nacen;<br>
+de haber sabido aprovechar las pequeñas."</i><br>
+<cite style="display:block; text-align: right">[Bill Gates](https://es.wikipedia.org/wiki/Bill_Gates)</cite>
 
 [1]:https://svelte.dev/docs/client-side-component-api
 
@@ -59,9 +59,8 @@ la religión es una condición de frontera."</i><br>
 # 2. [Procesamiento remoto](#agenda)
 Una modelo de [Procesamiento remoto][2] es un enfoque para el que algunas capas de software se procesan en servidores remotos no controlados por el desarrollador o en los dispositivos cliente.
 
-* ><i>"La ciencia es una ecuación diferencial;<br>
-la religión es una condición de frontera."</i><br>
-<cite style="display:block; text-align: right">[Alan Turing](https://es.wikipedia.org/wiki/Alan_Turing)</cite>
+* ><i>"Debes tener el control de tu tiempo, y no podrás tenerlo a menos que digas “no” a menudo."</i><br>
+<cite style="display:block; text-align: right">[Warren Buffett](https://es.wikipedia.org/wiki/Warren_Buffett)</cite>
 
 [2]:https://vuejs.org/guide/scaling-up/ssr.html
 
