@@ -237,7 +237,7 @@ Un sistema [descentralizado][42] es un grupo de entidades que permiten el proces
 [422_3]:https://hardhat.org/
 [422_4]:https://es.wikipedia.org/wiki/Solidity
 
-> [!NOTE]
+> [!QUOTE]
 > Highlights information that users should take into account, even when skimming.
 
 <br>
