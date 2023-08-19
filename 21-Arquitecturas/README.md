@@ -15,7 +15,7 @@ La arquitectura de software de un sistema es el conjunto de estructuras necesari
 
 ---
 # 1. [Monolíticas](#agenda)
-Una arquitectura [monolítica][1] se refiere a una aplicación de software en la que la capa de interfaz de usuario, lógica de negocios y la capa de acceso a datos están combinadas en un mismo programa, en el mismo lugar y sobre una misma plataforma.
+Una arquitectura [monolítica][1] se refiere a una aplicación de software en la que la mayoría de las capas y dominios están fuertemente acopladas y combinadas en un mismo programa, en el mismo lugar y sobre una misma plataforma.
 
 * ><i>"La ciencia es una ecuación diferencial;<br>
 la religión es una condición de frontera."</i><br>
@@ -42,10 +42,37 @@ Una arquitectura [Client–server][1] se refiere a un sistema donde los clientes
 
 ![Imagen de servidores con multiples clientes](../img/a-client-server.svg "Sistemas centralizados")
 
+## 1.3. Pila de tecnologías ✔
+* [__ASP.Net__][13_2]: [IIS][13_1] - [SQLserver][13_3] - [C#][13_4]
+* [__Laravel__][13_6]: [Apache][13_5] - [MySQL][13_7] - [PHP][13_8]
+* [__Spring__][13_10]: [Tomcat][13_9] - [Oracle DB][13_11] - [Java][13_12]
+* [__Django__][13_14]: [Nginx][13_13] - [PosgreSQL][13_15] - [Python][13_16]
+
+[13_1]:https://es.wikipedia.org/wiki/Internet_Information_Services
+[13_2]:https://es.wikipedia.org/wiki/ASP.NET_MVC_Framework
+[13_3]:https://es.wikipedia.org/wiki/Microsoft_SQL_Server
+[13_4]:https://es.wikipedia.org/wiki/C_Sharp
+
+[13_5]:https://es.wikipedia.org/wiki/Servidor_HTTP_Apache
+[13_6]:https://es.wikipedia.org/wiki/Laravel
+[13_7]:https://es.wikipedia.org/wiki/MySQL
+[13_8]:https://es.wikipedia.org/wiki/PHP
+
+[13_9]:https://es.wikipedia.org/wiki/Tomcat
+[13_10]:https://es.wikipedia.org/wiki/Spring_Framework
+[13_11]:https://es.wikipedia.org/wiki/Oracle_Database
+[13_12]:https://es.wikipedia.org/wiki/Java_(lenguaje_de_programaci%C3%B3n)#
+
+[13_13]:https://es.wikipedia.org/wiki/Nginx
+[13_14]:https://es.wikipedia.org/wiki/Django_(framework)#
+[13_15]:https://es.wikipedia.org/wiki/PostgreSQL
+[13_16]:https://es.wikipedia.org/wiki/Python
+
+
 <br>
 
 # 2. [Distribuidas en capas](#agenda)
-Una arquitectura [n-Tier][2] o Multi-capas se refiere a sistemas donde un servidor reenvía peticiones del cliente a otros servicios conectados en cascada, estas horizontales son conocidas como capas.
+Una arquitectura [n-Tier][2] o Multi-capas se refiere a sistemas donde un servidor reenvía peticiones del cliente a otros servicios conectados en cascada, estas horizontales son conocidas como capas y están débilmente acopladas entre si.
 
 * ><i>"Es indigno que hombres notables pierdan su tiempo como esclavos del cálculo cuando podrían dejar ese trabajo en manos de cualquiera si se usaran las máquinas."</i><br><cite style="display:block; text-align: right">[Gottfried Leibniz](https://es.wikipedia.org/wiki/Gottfried_Leibniz)</cite>
 
@@ -61,7 +88,7 @@ Una arquitectura [n-Tier][2] o Multi-capas se refiere a sistemas donde un servid
 * Clientes débilmente acoplados al servidor, si alguna capa falla puede fallar la aplicación.
 
 
-## 2.2. Ejemplos ✔
+## 2.2. Ejemplos arquitectura ✔
 * [Frontend][22_1] - [Backend][22_2] : [2][22_3] capas.
 * [Presentación][22_4] - [Lógica][22_5] - [Datos][22_7] : [3][22_8] capas.
 * [Presentación][22_4] - [Aplicación][22_5] - [Dominio][22_6] - [Persistencia][22_7] : [4][22_9] capas.
@@ -101,7 +128,7 @@ Una arquitectura [n-Tier][2] o Multi-capas se refiere a sistemas donde un servid
 <br>
 
 # 3. [Distribuidas en dominios](#agenda)
-Una arquitectura [distribuida verticalmente][3] se refiere  a sistemas donde un servidor reenvía peticiones del cliente a multiples servicios conectados en paralelo; estas verticales se conocen como dominios.
+Una arquitectura [distribuida verticalmente][3] se refiere  a sistemas donde un servidor reenvía peticiones del cliente a multiples servicios conectados en paralelo; estas verticales se conocen como dominios y están desacopladas entre si.
 
 * ><i>"La gente con conocimientos técnicos está dispuesta a perdonar a un ordenador que se cuelga un par de veces al año, pero los usuarios normales no."</i><br><cite style="display:block; text-align: right"> [Andrew S. Tanenbaum](https://es.wikipedia.org/wiki/Andrew_S._Tanenbaum)</cite>
 
@@ -113,11 +140,10 @@ Un [proxy inverso][31] es un tipo de servidor proxy que recupera recursos en nom
 
 [31]:https://es.wikipedia.org/wiki/Proxy_inverso
 
-## 3.2. Ejemplos ✔
+## 3.2. Ejemplos arquitectura ✔
 * [Micro-servicios][32_1]
 * [Sistemas Auto-contenidos][32_2]
 * [Micro-frontend][32_3]
-
 
 [32_1]:https://es.wikipedia.org/wiki/Arquitectura_de_microservicios
 [32_2]:https://en.wikipedia.org/wiki/Self-contained_system_(software)#
@@ -185,7 +211,7 @@ Un sistema [descentralizado][42] es un grupo de entidades que permiten el proces
 
 [42]:https://en.wikipedia.org/wiki/Distributed_operating_system
 
-### 4.2.1. Características.
+### 4.2.1. Características. `#0969DA`
 * Un solo nodo no conoce el estado de todo el sistema.
 * Cada nodo toma la decision mas conveniente.
 * La respuesta colectiva se logra en función del consenso entre pares.
@@ -196,7 +222,23 @@ Un sistema [descentralizado][42] es un grupo de entidades que permiten el proces
 
 ### 4.2.2. Multiples servidores.
 
+<!-- [issue:] cambiar imagen ] -->
+
 ![Imagen de sistemas descentralizados](../img/os-distributed.svg "Sistemas descentralizados")
+
+### 4.2.3. Tecnologías.
+* [Ethereum][422_1] - l1-blockchain
+* [Arbitrum][422_2] - l2-blockchain
+* [Hardhat][422_3] - smart-contrat-framewort
+* [Solidity][422_4] - programming-language
+
+[422_1]:https://es.wikipedia.org/wiki/Ethereum
+[422_2]:https://arbitrum.io/
+[422_3]:https://hardhat.org/
+[422_4]:https://es.wikipedia.org/wiki/Solidity
+
+> [!NOTE]
+> Highlights information that users should take into account, even when skimming.
 
 <br>
 
