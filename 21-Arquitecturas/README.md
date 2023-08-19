@@ -206,14 +206,40 @@ Una arquitectura [P2P][41] se refiere a sistemas donde no hay máquinas especial
 
 ![Imagen de sistemas descentralizados](../img/os-distributed.svg "Sistemas descentralizados")
 
-<br>
+### 4.1.3. Tecnologías.
+* [Kademlia][413_1] - [Tablas de hash distribuida][413_2]
+* [Kad][413_3] - [redes superpuestas][413_4]
+* [Turtle][413_5] - [redes-F2F][413_6]
+* [P2PSP][413_5] - [Streaming de video][413_6]
+* [P2PTV][413_5] - [Streaming de TV][413_6]
+
+[413_1]:https://es.wikipedia.org/wiki/Kademlia
+[413_2]:https://es.wikipedia.org/wiki/Tabla_de_hash_distribuida
+[413_3]:https://es.wikipedia.org/wiki/Kad
+[413_4]:https://es.wikipedia.org/wiki/Red_superpuesta
+[413_5]:https://es.wikipedia.org/wiki/Turtle_F2F
+[413_6]:https://es.wikipedia.org/wiki/Friend-to-friend
+[413_6]:https://es.wikipedia.org/wiki/P2PSP
+[413_6]:https://es.wikipedia.org/wiki/Streaming
+[413_6]:https://es.wikipedia.org/wiki/P2PTV
+[413_6]:https://es.wikipedia.org/wiki/Streaming
+
+### 4.1.4. Generaciones.
+* [Napster][414_1] - 1G-peer-to-peer
+* [BitTorrent][414_2] - 2G-peer-to-peer
+* [Turtle][413_5] - 3G-peer-to-peer
+
+[414_1]:https://es.wikipedia.org/wiki/Napster
+[414_2]:https://es.wikipedia.org/wiki/BitTorrent
+[413_7]:https://es.wikipedia.org/wiki/Apache_Cassandra
+
 
 ## 4.2. Patron cadena de bloques ✔
 Un sistema [descentralizado][42] es un grupo de entidades que permiten el procesamiento de información intercambiando información entre pares, sin que exista un nodo único que toma las decisiones. 
 
 [42]:https://en.wikipedia.org/wiki/Distributed_operating_system
 
-### 4.2.1. Características. `#0969DA`
+### 4.2.1. Características.
 * Un solo nodo no conoce el estado de todo el sistema.
 * Cada nodo toma la decision mas conveniente.
 * La respuesta colectiva se logra en función del consenso entre pares.
@@ -229,15 +255,15 @@ Un sistema [descentralizado][42] es un grupo de entidades que permiten el proces
 ![Imagen de sistemas descentralizados](../img/os-distributed.svg "Sistemas descentralizados")
 
 ### 4.2.3. Tecnologías.
-* [Ethereum][422_1] - l1-blockchain
-* [Arbitrum][422_2] - l2-blockchain
-* [Hardhat][422_3] - smart-contrat-framewort
-* [Solidity][422_4] - programming-language
+* [Ethereum][423_1] - l1-blockchain
+* [Arbitrum][423_2] - l2-blockchain
+* [Hardhat][423_3] - smart-contrat-framewort
+* [Solidity][423_4] - programming-language
 
-[422_1]:https://es.wikipedia.org/wiki/Ethereum
-[422_2]:https://arbitrum.io/
-[422_3]:https://hardhat.org/
-[422_4]:https://es.wikipedia.org/wiki/Solidity
+[423_1]:https://es.wikipedia.org/wiki/Ethereum
+[423_2]:https://arbitrum.io/
+[423_3]:https://hardhat.org/
+[423_4]:https://es.wikipedia.org/wiki/Solidity
 
 <br>
 
