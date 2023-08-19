@@ -102,7 +102,7 @@ Un [proxy inverso][31] es un tipo de servidor proxy que recupera recursos en nom
 
 <br>
 
-# 4. [Distribuidas](#agenda)
+# 4. [Descentralizadas](#agenda)
 Una arquitectura [P2P][4] se refiere a sistemas donde no hay máquinas especiales que presten un servicio o gestionen los recursos de la red. En su lugar, todas las responsabilidades se reparten uniformemente entre todas las máquinas, conocidas como peers.
 
 * ><i>"Si nadie se ríe de alguna de tus ideas, entonces significa que no estás siendo demasiado creativo."</i><br><cite style="display:block; text-align: right"> [Bill Gates](https://es.wikipedia.org/wiki/Bill_Gates)</cite>
