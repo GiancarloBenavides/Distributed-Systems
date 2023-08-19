@@ -79,7 +79,7 @@ Una arquitectura [n-Tier][2] o Multi-capas se refiere a sistemas donde un servid
 
 ## 2.3. Multiples servidores en cascada ✔
 
-![Imagen de sistemas centralizados](../img/a-mulilayer-server.svg "Sistemas centralizados")
+![Imagen de sistemas distribuidos](../img/a-mulilayer-server.svg "Sistemas distribuidos")
 
 <br>
 
@@ -98,7 +98,7 @@ Un [proxy inverso][31] es un tipo de servidor proxy que recupera recursos en nom
 
 ## 3.2. Multiples servidores en paralelo ✔
 
-![Imagen de sistemas centralizados](../img/a-domain-distribute.svg "Sistemas centralizados")
+![Imagen de sistemas distribuidos](../img/a-domain-distribute.svg "Sistemas distribuidos")
 
 <br>
 
@@ -127,7 +127,7 @@ Una arquitectura [P2P][41] se refiere a sistemas donde no hay máquinas especial
 
 ### 4.1.2. Multiples servidores.
 
-![Imagen de sistemas distribuidos](../img/os-distributed.svg "Sistemas Distribuidos")
+![Imagen de sistemas descentralizados](../img/os-distributed.svg "Sistemas descentralizados")
 
 <br>
 
@@ -147,7 +147,7 @@ Un sistema [descentralizado][42] es un grupo de entidades que permiten el proces
 
 ### 4.2.2. Multiples servidores.
 
-![Imagen de sistemas distribuidos](../img/os-distributed.svg "Sistemas Distribuidos")
+![Imagen de sistemas descentralizados](../img/os-distributed.svg "Sistemas descentralizados")
 
 <br>
 

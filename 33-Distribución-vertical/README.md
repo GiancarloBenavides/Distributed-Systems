@@ -22,7 +22,7 @@ Una arquitectura de [micro-servicios][1] es un enfoque para el desarrollo de sof
 
 ## 2.3. Distribuir en Micro-servicios ✔
 
-![Imagen de sistemas centralizados](../img/d-microservices.svg "Sistemas centralizados")
+![Imagen de sistemas distribuidos](../img/d-microservices.svg "Sistemas distribuidos")
 
 
 # 2. [Micro-frontend](#agenda)
@@ -35,7 +35,7 @@ Una arquitectura [micro-frontend][2] es un enfoque para el desarrollo de softwar
 
 ## 2.3. Distribuir en Micro-frontend ✔
 
-![Imagen de sistemas centralizados](../img/d-microfrontend.svg "Sistemas centralizados")
+![Imagen de sistemas distribuidos](../img/d-microfrontend.svg "Sistemas distribuidos")
 
 <br>
 
