@@ -202,6 +202,8 @@ Una arquitectura [P2P][41] se refiere a sistemas donde no hay máquinas especial
 
 ### 4.1.2. Multiples servidores.
 
+<!-- [issue:] cambiar imagen ] -->
+
 ![Imagen de sistemas descentralizados](../img/os-distributed.svg "Sistemas descentralizados")
 
 <br>
@@ -236,9 +238,6 @@ Un sistema [descentralizado][42] es un grupo de entidades que permiten el proces
 [422_2]:https://arbitrum.io/
 [422_3]:https://hardhat.org/
 [422_4]:https://es.wikipedia.org/wiki/Solidity
-
-> [!QUOTE]
-> Highlights information that users should take into account, even when skimming.
 
 <br>
 
