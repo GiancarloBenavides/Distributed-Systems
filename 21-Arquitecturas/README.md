@@ -207,31 +207,36 @@ Una arquitectura [P2P][41] se refiere a sistemas donde no hay máquinas especial
 ![Imagen de sistemas descentralizados](../img/os-distributed.svg "Sistemas descentralizados")
 
 ### 4.1.3. Tecnologías.
-* [Kademlia][413_1] - [Tablas de hash distribuida][413_2]
+* [Kademlia][413_1] - [tablas de hash distribuidas][413_2]
 * [Kad][413_3] - [redes superpuestas][413_4]
-* [Turtle][413_5] - [redes-F2F][413_6]
-* [P2PSP][413_5] - [Streaming de video][413_6]
-* [P2PTV][413_5] - [Streaming de TV][413_6]
+* [Apache Cassandra][413_5] - [bases de datos no-sql-p2p][413_6]
+* [P2PSP][413_7] - [streaming de video][413_8]
+* [P2PTV][413_9] - [streaming de TV][413_10]
 
 [413_1]:https://es.wikipedia.org/wiki/Kademlia
 [413_2]:https://es.wikipedia.org/wiki/Tabla_de_hash_distribuida
 [413_3]:https://es.wikipedia.org/wiki/Kad
 [413_4]:https://es.wikipedia.org/wiki/Red_superpuesta
-[413_5]:https://es.wikipedia.org/wiki/Turtle_F2F
-[413_6]:https://es.wikipedia.org/wiki/Friend-to-friend
-[413_6]:https://es.wikipedia.org/wiki/P2PSP
-[413_6]:https://es.wikipedia.org/wiki/Streaming
-[413_6]:https://es.wikipedia.org/wiki/P2PTV
-[413_6]:https://es.wikipedia.org/wiki/Streaming
+[413_5]:https://es.wikipedia.org/wiki/Apache_Cassandra
+[413_6]:https://es.wikipedia.org/wiki/NoSQL
+[413_7]:https://es.wikipedia.org/wiki/P2PSP
+[413_8]:https://es.wikipedia.org/wiki/Streaming
+[413_9]:https://es.wikipedia.org/wiki/P2PTV
+[413_10]:https://es.wikipedia.org/wiki/Streaming
 
 ### 4.1.4. Generaciones.
 * [Napster][414_1] - 1G-peer-to-peer
 * [BitTorrent][414_2] - 2G-peer-to-peer
-* [Turtle][413_5] - 3G-peer-to-peer
+* [Vuze][414_3] - 3G-peer-to-peer
+* [Turtle][413_5] - [redes-F2F][413_6]
 
 [414_1]:https://es.wikipedia.org/wiki/Napster
 [414_2]:https://es.wikipedia.org/wiki/BitTorrent
-[413_7]:https://es.wikipedia.org/wiki/Apache_Cassandra
+[413_3]:https://es.wikipedia.org/wiki/Vuze
+[413_5]:https://es.wikipedia.org/wiki/Turtle_F2F
+[413_6]:https://es.wikipedia.org/wiki/Friend-to-friend
+
+
 
 
 ## 4.2. Patron cadena de bloques ✔
