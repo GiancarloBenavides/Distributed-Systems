@@ -25,7 +25,7 @@ la religión es una condición de frontera."</i><br>
 
 ## 1.1. Servicios en internet ✔
 
-![Imagen de sistemas mainframe](../img/client-server.svg "Sistemas mainframe")
+![Imagen de servicios web](../img/interner-services.svg "internet")
 
 ## 1.2. Patrón Cliente-Servidor ✔
 Una arquitectura [Client–server][1] se refiere a un sistema donde los clientes inteligentes se ponen en contacto con el servidor para hacer peticiones de datos, formatearlos y mostrarlos en una vista a los usuarios. Si los datos fueron modificados por el cliente se envían para persistir los datos en el servidor.
@@ -40,7 +40,7 @@ Una arquitectura [Client–server][1] se refiere a un sistema donde los clientes
 
 ### 1.2.2. Multiples clientes.
 
-![Imagen de servidores con multiples clientes](../img/a-cliente-servidor.svg "Sistemas centralizados")
+![Imagen de servidores con multiples clientes](../img/a-client-server.svg "Sistemas centralizados")
 
 <br>
 
@@ -95,6 +95,10 @@ Una arquitectura [distribuida verticalmente][3] se refiere  a sistemas donde un 
 Un [proxy inverso][31] es un tipo de servidor proxy que recupera recursos en nombre de un cliente externo, desde uno o más servidores internos.
 
 [31]:https://es.wikipedia.org/wiki/Proxy_inverso
+
+## 3.2. Multiples servidores en paralelo ✔
+
+![Imagen de sistemas centralizados](../img/a-domain-distribute.svg "Sistemas centralizados")
 
 <br>
 
