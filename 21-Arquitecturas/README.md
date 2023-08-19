@@ -76,8 +76,25 @@ Una arquitectura [n-Tier][2] o Multi-capas se refiere a sistemas donde un servid
 [22_8]:https://en.wikipedia.org/wiki/Multitier_architecture#Three-tier_architecture
 [22_9]:https://es.wikipedia.org/wiki/Arquitectura_multicapa
 
+## 2.3. Pila de tecnologías ✔
+* [Jinja ][23_1] - [template-engine][23_2] - Python (Plantillas)
+* [Flask][23_3] - [micro-framework][23_4] - Python (RESTful APIs)
+* [Gunicorn][23_5] - [interface-wsgi][23_6] - Python (Servidor HTTP)
+* [SQLAlchemy][23_7] - [orm][23_8] - Python (Mapeo DB)
+* [Swagger UI][23_9] -  interfaz Swagger (Documentación)
 
-## 2.3. Multiples servidores en cascada ✔
+[23_1]:https://en.wikipedia.org/wiki/Jinja_(template_engine)#
+[23_2]:https://en.wikipedia.org/wiki/Web_template_system
+[23_3]:https://es.wikipedia.org/wiki/Flask
+[23_4]:https://es.wikipedia.org/wiki/Microframework
+[23_5]:https://en.wikipedia.org/wiki/Gunicorn
+[23_6]:https://en.wikipedia.org/wiki/Web_Server_Gateway_Interface
+[23_7]:https://en.wikipedia.org/wiki/SQLAlchemy
+[23_8]:https://en.wikipedia.org/wiki/Object%E2%80%93relational_mapping
+[23_9]:https://es.wikipedia.org/wiki/Swagger_(software)#
+
+
+## 2.4. Multiples servidores en cascada ✔
 
 ![Imagen de sistemas distribuidos](../img/a-mulilayer-server.svg "Sistemas distribuidos")
 
@@ -96,7 +113,39 @@ Un [proxy inverso][31] es un tipo de servidor proxy que recupera recursos en nom
 
 [31]:https://es.wikipedia.org/wiki/Proxy_inverso
 
-## 3.2. Multiples servidores en paralelo ✔
+## 3.2. Ejemplos ✔
+* [Micro-servicios][32_1]
+* [Sistemas Auto-contenidos][32_2]
+* [Micro-frontend][32_3]
+
+
+[32_1]:https://es.wikipedia.org/wiki/Arquitectura_de_microservicios
+[32_2]:https://en.wikipedia.org/wiki/Self-contained_system_(software)#
+[32_3]:https://es.wikipedia.org/wiki/Microfrontend
+
+
+## 3.3. Pila de tecnologías ✔
+* [GraphQL][23_1] - [lenguaje de consulta][23_2] (Agregación)
+* [Asyncio][23_3] - [async/await-io][23_4] (Concurrencia)
+* [FastAPI][23_5] - [asynchronous-framework][23_6] Python (RESTful APIs)
+* [Pydantic][23_7] - [validation-library][23_8] Python (Validación)
+* [Uvicorn][23_9] - [interface-asgi][23_10] - Python (Servidor HTTP)
+* [OpenAPI][23_11] - [especificación API][23_12] (documentación)
+
+[23_1]:https://graphql.org/learn/
+[23_2]:https://es.wikipedia.org/wiki/GraphQL
+[23_3]:https://docs.python.org/es/3/library/asyncio.html
+[23_4]:https://en.wikipedia.org/wiki/Asynchronous_I/O
+[23_5]:https://fastapi.tiangolo.com/es/
+[23_6]:https://en.wikipedia.org/wiki/FastAPI
+[23_7]:https://docs.pydantic.dev/latest/
+[23_8]:https://es.wikipedia.org/wiki/Validaci%C3%B3n_de_datos
+[23_9]:https://www.uvicorn.org/
+[23_10]:https://en.wikipedia.org/wiki/Asynchronous_Server_Gateway_Interface
+[23_11]:https://www.openapis.org/
+[23_12]:https://es.wikipedia.org/wiki/Especificaci%C3%B3n_OpenAPI
+
+## 3.4. Multiples servidores en paralelo ✔
 
 ![Imagen de sistemas distribuidos](../img/a-domain-distribute.svg "Sistemas distribuidos")
 
