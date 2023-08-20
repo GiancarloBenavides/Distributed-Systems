@@ -82,7 +82,7 @@ Un sistema [centralizado][2] es una entidad que permite el procesamiento de info
 
 
 ## 2.2. Justificación ✔
-Con el rápido crecimiento de las redes y la necesidad de disminuir costos de las unidades centrales aparecen los micro-computadoras con capacidad de procesar multiples tareas en tiempo real y conectarse entre si para compartir recursos.
+Con la invención de las redes de alta velocidad y la necesidad de disminuir los costos de las grandes unidades de procesamiento o mainframe; aparecen los micro-computadoras. Estos sistemas inteligentes tienen capacidad de procesar multiples tareas en tiempo real y adicionalmente pueden conectarse a otros sistemas para compartir recursos.
 
 
 ## 2.3. Características ✔
@@ -141,7 +141,7 @@ Un sistema [distribuido][3] es un grupo de entidades conectadas en red que se co
 
 
 ## 3.2. Justificación ✔
-Con el crecimiento de la [capacidad][32_1] de los canales en las redes y buscando una mayor eficiencia de procesamiento aparecen la [programación distribuidos][32_2] y los [sistemas operativos distribuidos][32_3] con capacidad de ejecutar procesos remotos de forma protegida y ordenada.
+Con el crecimiento de la [capacidad][32_1] de los canales en las redes y buscando una mayor eficiencia de procesamiento aparecen la [programación distribuida][32_2] y los [sistemas operativos distribuidos][32_3] con capacidad de ejecutar procesos remotos de forma protegida y ordenada.
 
 [32_1]:https://es.wikipedia.org/wiki/Capacidad_de_canal
 [32_2]:https://es.wikipedia.org/wiki/Programaci%C3%B3n_distribuida
