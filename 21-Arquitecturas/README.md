@@ -243,7 +243,7 @@ Una arquitectura [P2P][41] se refiere a sistemas donde no hay máquinas especial
 ## 4.3. Patron cadena de bloques ✔
 Un sistema [descentralizado][42] es un grupo de entidades que permiten el procesamiento de información intercambiando información entre pares, sin que exista un nodo único que toma las decisiones. 
 
-[42]:https://en.wikipedia.org/wiki/Distributed_operating_system
+[42]:https://es.wikipedia.org/wiki/Cadena_de_bloques
 
 ### 4.3.1. Características.
 * Un solo nodo no conoce el estado de todo el sistema.
@@ -275,5 +275,9 @@ Un sistema [descentralizado][42] es un grupo de entidades que permiten el proces
 
 ---
 ## Mas Recursos
-- [Cadena de bloques](https://es.wikipedia.org/wiki/Cadena_de_bloques) (Wikipedia)
 - [Red entre iguales](https://es.wikipedia.org/wiki/Peer-to-peer) (Wikipedia)
+- [Cadena de bloques - ejemplo](https://www.youtube.com/watch?v=hEoYL5j0wYU) (YouTube)
+- [Minería de bitcoin](https://es.wikipedia.org/wiki/Miner%C3%ADa_de_bitcoin) (Wikipedia)
+- [Bitcoin](https://es.wikipedia.org/wiki/Bitcoin) (Wikipedia)
+
+
