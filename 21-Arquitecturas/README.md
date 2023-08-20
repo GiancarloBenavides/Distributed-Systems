@@ -185,13 +185,18 @@ Una arquitectura [P2P][4] se refiere a sistemas donde no hay máquinas especiale
 [4]:https://es.wikipedia.org/wiki/Peer-to-peer
 
 
-## 4.1. Patron P2P
+## 4.1. Arquitectura ✔
+
+![Imagen de sistemas descentralizados](../img/os-distributed.svg "Sistemas descentralizados")
+
+
+## 4.2. Patron P2P
 Una arquitectura [P2P][41] se refiere a sistemas donde no hay máquinas especiales que presten un servicio o gestionen los recursos de la red. En su lugar, todas las responsabilidades se reparten uniformemente entre todas las máquinas, conocidas como peers.
 
 [41]:https://es.wikipedia.org/wiki/Peer-to-peer
 
 
-### 4.1.1. Características.
+### 4.2.1. Características.
 * Procesamiento Cooperativo.
 * Los procesos locales y remotos no comparten memoria.
 * Los procesos remotos son asíncronos.
@@ -200,31 +205,29 @@ Una arquitectura [P2P][41] se refiere a sistemas donde no hay máquinas especial
 * Clientes desacoplados a un servidor, la falla de un terminal no afecta al sistema.
 
 
-### 4.1.2. Multiples servidores.
+### 4.2.2. Multiples servidores.
 
-<!-- [issue:] cambiar imagen ] -->
+![Imagen de sistemas p2p](../img/a-p2p.svg "Sistemas Peer to Peer")
 
-![Imagen de sistemas descentralizados](../img/os-distributed.svg "Sistemas descentralizados")
+### 4.2.3. Tecnologías.
+* [Kademlia][423_1] - [tablas de hash distribuidas][423_2]
+* [Kad][423_3] - [redes superpuestas][423_4]
+* [Apache Cassandra][423_5] - [bases de datos no-sql-p2p][423_6]
+* [P2PSP][423_7] - [streaming de video][423_8]
+* [P2PTV][423_9] - [streaming de TV][423_10]
 
-### 4.1.3. Tecnologías.
-* [Kademlia][413_1] - [tablas de hash distribuidas][413_2]
-* [Kad][413_3] - [redes superpuestas][413_4]
-* [Apache Cassandra][413_5] - [bases de datos no-sql-p2p][413_6]
-* [P2PSP][413_7] - [streaming de video][413_8]
-* [P2PTV][413_9] - [streaming de TV][413_10]
+[423_1]:https://es.wikipedia.org/wiki/Kademlia
+[423_2]:https://es.wikipedia.org/wiki/Tabla_de_hash_distribuida
+[423_3]:https://es.wikipedia.org/wiki/Kad
+[423_4]:https://es.wikipedia.org/wiki/Red_superpuesta
+[423_5]:https://es.wikipedia.org/wiki/Apache_Cassandra
+[423_6]:https://es.wikipedia.org/wiki/NoSQL
+[423_7]:https://es.wikipedia.org/wiki/P2PSP
+[423_8]:https://es.wikipedia.org/wiki/Streaming
+[423_9]:https://es.wikipedia.org/wiki/P2PTV
+[423_10]:https://es.wikipedia.org/wiki/Streaming
 
-[413_1]:https://es.wikipedia.org/wiki/Kademlia
-[413_2]:https://es.wikipedia.org/wiki/Tabla_de_hash_distribuida
-[413_3]:https://es.wikipedia.org/wiki/Kad
-[413_4]:https://es.wikipedia.org/wiki/Red_superpuesta
-[413_5]:https://es.wikipedia.org/wiki/Apache_Cassandra
-[413_6]:https://es.wikipedia.org/wiki/NoSQL
-[413_7]:https://es.wikipedia.org/wiki/P2PSP
-[413_8]:https://es.wikipedia.org/wiki/Streaming
-[413_9]:https://es.wikipedia.org/wiki/P2PTV
-[413_10]:https://es.wikipedia.org/wiki/Streaming
-
-### 4.1.4. Generaciones.
+### 4.2.4. Generaciones.
 * [Napster][414_1] - 1G-peer-to-peer
 * [BitTorrent][414_2] - 2G-peer-to-peer
 * [Vuze][414_3] - 3G-peer-to-peer
@@ -237,14 +240,12 @@ Una arquitectura [P2P][41] se refiere a sistemas donde no hay máquinas especial
 [413_6]:https://es.wikipedia.org/wiki/Friend-to-friend
 
 
-
-
-## 4.2. Patron cadena de bloques ✔
+## 4.3. Patron cadena de bloques ✔
 Un sistema [descentralizado][42] es un grupo de entidades que permiten el procesamiento de información intercambiando información entre pares, sin que exista un nodo único que toma las decisiones. 
 
 [42]:https://en.wikipedia.org/wiki/Distributed_operating_system
 
-### 4.2.1. Características.
+### 4.3.1. Características.
 * Un solo nodo no conoce el estado de todo el sistema.
 * Cada nodo toma la decision mas conveniente.
 * La respuesta colectiva se logra en función del consenso entre pares.
@@ -253,22 +254,22 @@ Un sistema [descentralizado][42] es un grupo de entidades que permiten el proces
 * Capacidad de escalar horizontalmente con rapidez.
 * Clientes desacoplados.
 
-### 4.2.2. Multiples servidores.
+### 4.3.2. Multiples servidores.
 
 <!-- [issue:] cambiar imagen ] -->
+![Imagen de sistemas de cadena de bloques](../img/a-blockchain.svg "Cadena de Bloques")
 
-![Imagen de sistemas descentralizados](../img/os-distributed.svg "Sistemas descentralizados")
 
-### 4.2.3. Tecnologías.
-* [Ethereum][423_1] - l1-blockchain
-* [Arbitrum][423_2] - l2-blockchain
-* [Hardhat][423_3] - smart-contrat-framewort
-* [Solidity][423_4] - programming-language
+### 4.3.3. Tecnologías.
+* [Ethereum][433_1] - l1-blockchain.
+* [Arbitrum][433_2] - l2-blockchain.
+* [Hardhat][433_3] - smart-contrat-framewort.
+* [Solidity][433_4] - programming-language.
 
-[423_1]:https://es.wikipedia.org/wiki/Ethereum
-[423_2]:https://arbitrum.io/
-[423_3]:https://hardhat.org/
-[423_4]:https://es.wikipedia.org/wiki/Solidity
+[433_1]:https://es.wikipedia.org/wiki/Ethereum
+[433_2]:https://arbitrum.io/
+[433_3]:https://hardhat.org/
+[433_4]:https://es.wikipedia.org/wiki/Solidity
 
 <br>
 
