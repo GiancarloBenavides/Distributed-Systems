@@ -40,7 +40,7 @@ Los patrones de diseño que regularmente se implementan en un sistema distribuid
 
 [13_1]:https://es.wikipedia.org/wiki/Gesti%C3%B3n_de_API
 [13_2]:https://es.wikipedia.org/wiki/Arquitectura_dirigida_por_eventos
-[13_3]:https://docs.aws.amazon.com/es_es/prescriptive-guidance/latest/modernization-data-persistence/saga-pattern.html
+[13_3]:https://en.wikipedia.org/wiki/Long-running_transaction
 
 
 ## 1.4 Patrones de acceso a datos ✔
@@ -48,7 +48,7 @@ Los patrones de diseño que regularmente se implementan en un sistema distribuid
 * [Bases de datos por dominio][14_1] - Para fragmentar la persistencia.
 * [Sharding][14_2] - Para fragmentar bases de datos.
 
-[14_1]:https://docs.aws.amazon.com/es_es/prescriptive-guidance/latest/modernization-data-persistence/cqrs-pattern.html
+[14_1]:https://en.wikipedia.org/wiki/Command_Query_Responsibility_Segregation
 [14_2]:https://es.wikipedia.org/wiki/Modelo_de_dominio
 [14_3]:https://en.wikipedia.org/wiki/Shard_(database_architecture)#
 
@@ -58,39 +58,50 @@ Los patrones de diseño que regularmente se implementan en un sistema distribuid
 Algunos recursos útiles para implementar una arquitectura de Microservicios.
 
 ## 2.1. Conceptos Útiles ✔
-* [__BLOG:__][21_1] -> [Chris Richardson][21_1] .
-* [__BLOG:__][21_2] -> [Martin Fowler][21_2] .
-* [__BLOG:__][21_3] -> [Robert Cecil Martin][21_3] 
+* [__BLOG:__][21_1] -> [Chris Richardson][21_1].
+* [__BLOG:__][21_2] -> [Martin Fowler][21_2].
+* [__BLOG:__][21_3] -> [Robert Cecil Martin][21_3].
 
 [21_1]:https://microservices.io/
 [21_2]:https://www.martinfowler.com/microservices/
 [21_3]:http://blog.cleancoder.com/uncle-bob/2014/10/01/CleanMicroserviceArchitecture.html
 
 
-## 2.2. Tecnologías multiplataforma ✔
-* [__BIBLIOTECA:__][22_1] gRPC - sistema RPC multiplataforma.
-* [__SOFTWARE:__][22_2] Redis - Base de datos en memoria.
-* [__SOFTWARE:__][22_2] RabbitMQ - Base de datos en memoria.
+## 2.2. Plataformas cloud ✔
+* [__AWS:__][22_1] Patrones para persistir datos.
+* [__AWS:__][22_2] Patrones para integrar Microservicios.
+* [__Azure:__][22_3] Patrones para construir soluciones en la nube.
 
-[22_1]:https://grpc.io/docs/languages/python/
-[22_2]:https://redis.io/docs/clients/om-clients/stack-python/
-[22_3]:https://www.rabbitmq.com/tutorials/tutorial-one-python.html
-
-
-## 2.3. ASP.NET de Microsoft  ✔
-* [__TUTORIALES:__][23_1] distribuidos con Microsoft .NET
-* [__TUTORIALES:__][23_2] patrones para implementar [micro-servicios con .NET][23_2]
-* [__LIBRO:__][23_3] De la Torre, C. 2021. [Microservicios .NET: arquitectura para aplicaciones .NET en contenedores][23_3]. 7Ed. Microsoft Corp.
-
-[23_1]:#41-sistemas-distribuidos-con-aspnet-de-microsoft-✔
-[23_2]:https://www.netmentor.es/entrada/patron-api-gateway
-[23_3]:https://learn.microsoft.com/en-us/dotnet/architecture/microservices/
+[22_1]:https://docs.aws.amazon.com/es_es/prescriptive-guidance/latest/modernization-data-persistence/enabling-patterns.html
+[22_2]:https://docs.aws.amazon.com/es_es/prescriptive-guidance/latest/modernization-integrating-microservices/integrating-patterns.html
+[22_3]:https://learn.microsoft.com/en-us/azure/architecture/patterns/
 
 
-## 2.3. Python  ✔
-* [__BIBLIOTECA:__][23_1] Pyro5 - Python Remote Objects.
-* [__BIBLIOTECA:__][23_2] FastAPI - Micro-framework 
-* [__TEMPLATE:__][23_2] Estructura de carpetas.
+## 2.3. Tecnologías multiplataforma ✔
+* [__BIBLIOTECA:__][23_1] gRPC - sistema RPC multiplataforma.
+* [__SOFTWARE:__][23_2] Redis - base de datos en memoria.
+* [__SOFTWARE:__][23_3] RabbitMQ - middleware de mensajería.
+* [__SOFTWARE:__][23_4] GraphQL - lenguaje de consulta.
+
+[23_1]:https://grpc.io/docs/languages/python/
+[23_2]:https://redis.io/docs/clients/om-clients/stack-python/
+[23_3]:https://www.rabbitmq.com/tutorials/tutorial-one-python.html
+[23_4]:https://graphql.org/code/#python
+
+## 2.4. Microsoft .NET ✔
+* [__TUTORIALES:__][24_1] distribuidos con Microsoft .NET
+* [__TUTORIALES:__][24_2] mentoría para implementar [micro-servicios con .NET][24_2]
+* [__LIBRO:__][24_3] De la Torre, C. 2021. [Microservicios .NET: arquitectura para aplicaciones .NET en contenedores][24_3]. 7Ed. Microsoft Corp.
+
+[24_1]:#41-sistemas-distribuidos-con-aspnet-de-microsoft-✔
+[24_2]:https://www.netmentor.es/entrada/introduccion-sistemas-distribuidos
+[24_3]:https://learn.microsoft.com/en-us/dotnet/architecture/microservices/
+
+
+## 2.5. Python  ✔
+* [__BIBLIOTECA:__][25_1] Pyro5 - Python Remote Objects.
+* [__BIBLIOTECA:__][25_2] FastAPI - Micro-framework 
+* [__TEMPLATE:__][25_3] Estructura de carpetas.
 
 ```shell
 # Para agregar Pyro5 a una instalación de Python
@@ -98,9 +109,16 @@ Algunos recursos útiles para implementar una arquitectura de Microservicios.
 pip install Pyro5
 ```
 
-[23_1]:https://pyro5.readthedocs.io/en/latest/
-[23_2]:https://fastapi.tiangolo.com/tutorial/
-[23_3]:https://alvaromonsalve.com/2021/03/11/microservicios-en-python-plantilla-basica/
+[25_1]:https://pyro5.readthedocs.io/en/latest/
+[25_2]:https://fastapi.tiangolo.com/tutorial/
+[25_3]:https://alvaromonsalve.com/2021/03/11/microservicios-en-python-plantilla-basica/
+
+## 2.6. Java  ✔
+* [__TUTORIALES:__][26_1] Implementar patrones distribuidos
+
+
+[26_1]:https://sacavix.com/category/patrones/
+
 
 <br>
 
