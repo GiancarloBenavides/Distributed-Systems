@@ -5,7 +5,6 @@
 ## Objetos Distribuidos
 En los sistemas Cliente/Servidor, un objeto distribuido es aquel que está gestionado por un servidor y sus clientes invocan sus métodos utilizando un «método de invocación remota». El cliente invoca el método mediante un mensaje al servidor que gestiona el objeto, se ejecuta el método del objeto en el servidor y el resultado se devuelve al cliente en otro mensaje.
 
-
 ## Agenda
 1. [Distributed Component Object Model](#1-distributed-component-object-model).
 1. [Remote Invocation Method](#2-remote-invocation-method).

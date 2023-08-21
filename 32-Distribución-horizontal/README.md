@@ -5,7 +5,6 @@
 ## Distribución Horizontal
 es un enfoque para el desarrollo de software que consiste en construir una aplicación como un conjunto de pequeños servicios, los cuales se ejecutan en su propio proceso y se comunican con mecanismos ligeros como una API de recursos HTTP.
 
-
 ## Agenda
 1. [Procesamiento local](#1-procesamiento-local).
 1. [Procesamiento remoto](#2-procesamiento-remoto).

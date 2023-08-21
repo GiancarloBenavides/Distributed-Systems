@@ -5,7 +5,6 @@
 ## Patrones arquitectónicos para sistemas distribuidos
 Los patrones arquitectónicos son aquellas soluciones recurrentes a un problema de diseño entre componentes y su relación entre ellos y puede estar conformada de uno o más patrones de diseño.
 
-
 ## Agenda
 1. [Patrones para implementación](#1-sistemas-distribuidos).
 1. [Recursos para implementación](#2-sistemas-descentralizados).

@@ -5,7 +5,6 @@
 ## Aplicaciones Distribuidas
 Es un enfoque para el desarrollo de software que consiste en construir una aplicación como un conjunto de componentes que se ejecutan en su propio proceso y se comunican entre si con mecanismos ligeros.
 
-
 ## Agenda
 1. [Bases de datos](#1-bases-de-datos).
 1. [Cluster](#2-Cluster).

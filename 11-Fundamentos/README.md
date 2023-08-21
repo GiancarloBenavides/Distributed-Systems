@@ -5,7 +5,6 @@
 ## Fundamentos
 La administración y los servicios que ofrece un sistema de procesamiento digital, pueden estar distribuidos en diferentes componentes de hardware y con diferentes niveles de acoplamiento entre ellos.
 
-
 ## Agenda
 1. [Sistemas mainframe](#1-sistemas-mainframes).
 1. [Sistemas centralizados](#2-sistemas-centralizados).
