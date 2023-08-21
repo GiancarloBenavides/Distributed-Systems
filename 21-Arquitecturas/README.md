@@ -276,8 +276,8 @@ Un sistema [descentralizado][42] es un grupo de entidades que permiten el proces
 ---
 ## Mas Recursos
 - [Red entre iguales](https://es.wikipedia.org/wiki/Peer-to-peer) (Wikipedia)
-- [Cadena de bloques - ejemplo](https://www.youtube.com/watch?v=hEoYL5j0wYU) (YouTube)
-- [Minería de bitcoin](https://es.wikipedia.org/wiki/Miner%C3%ADa_de_bitcoin) (Wikipedia)
+- [Blockchain - Explicación](https://www.youtube.com/watch?v=hEoYL5j0wYU) (YouTube)
+- [Blockchain - Bitcoin](https://www.youtube.com/watch?v=V9Kr2SujqHw) (YouTube - DotCSV)
+- [Blockchain - Criptomonedas](https://www.youtube.com/watch?v=pqEidVW9da0&list=PLOPFAg4mOJ10JaL7F42t0WlqCoOiOJ3b4) (YouTube - QuantumFracture)
+- [Bitcoin - Minería](https://es.wikipedia.org/wiki/Miner%C3%ADa_de_bitcoin) (Wikipedia)
 - [Bitcoin](https://es.wikipedia.org/wiki/Bitcoin) (Wikipedia)
-
-
