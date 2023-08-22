@@ -190,7 +190,7 @@ Un sistema [descentralizado][4] es un grupo de entidades que permiten el procesa
 [4]:https://es.wikipedia.org/wiki/Aplicaci%C3%B3n_descentralizada
 
 
-## 4.1. Multiples servidores ✔
+## 4.1. Multiples pares colaboradores ✔
 
 ![Imagen de sistemas descentralizados](../img/os-decentralized.svg "Sistemas Descentralizados")
 
