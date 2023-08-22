@@ -205,7 +205,7 @@ Una arquitectura [P2P][41] se refiere a sistemas donde no hay máquinas especial
 * Clientes desacoplados a un servidor, la falla de un terminal no afecta al sistema.
 
 
-### 4.2.2. Multiples servidores.
+### 4.2.2. Multiples pares.
 
 ![Imagen de sistemas p2p](../img/a-p2p.svg "Sistemas Peer to Peer")
 
@@ -254,7 +254,7 @@ Un sistema [descentralizado][42] es un grupo de entidades que permiten el proces
 * Capacidad de escalar horizontalmente con rapidez.
 * Clientes desacoplados.
 
-### 4.3.2. Multiples servidores.
+### 4.3.2. Multiples nodos.
 
 <!-- [issue:] cambiar imagen ] -->
 ![Imagen de sistemas de cadena de bloques](../img/a-blockchain.svg "Cadena de Bloques")
