@@ -19,6 +19,8 @@ Una base de datos distribuida o [BDD][1] es un conjunto de múltiples bases de d
 [1]:https://es.wikipedia.org/wiki/Base_de_datos_distribuida
 
 ## 1.1 Características ✔
+* Una única base de datos lógica en DDBMS.
+* Dividida en fragmentos controlados por un DBMS.
 * Múltiples servidores, llamados nodos.
 * Red de Computadores necesaria.
 
@@ -39,7 +41,7 @@ Una base de datos distribuida o [BDD][1] es un conjunto de múltiples bases de d
 
 ## 1.2 Componentes ✔
 * [SBDD][12_1] - Motor de Base de datos distribuido.
-* [DBMS][12_1] - Gestor de base de datos.
+* [DDBMS][12_1] - Gestor de base de datos distribuido.
 * [DTM][12_1] - Nodo de transacción.
 * [DBM][12_1] - Nodo de base de datos.
 
@@ -58,6 +60,10 @@ Una base de datos distribuida o [BDD][1] es un conjunto de múltiples bases de d
 [13_3]:https://es.wikipedia.org/wiki/Microsoft_SQL_Server
 [13_4]:https://es.wikipedia.org/wiki/MySQL
 [13_5]:https://es.wikipedia.org/wiki/MongoDB
+
+## 1.4. Arquitectura ✔
+
+![Imagen de bases de datos distribuidas ](../img/app-db-distributed-.svg "Sistemas distribuidos")
 
 <br>
 

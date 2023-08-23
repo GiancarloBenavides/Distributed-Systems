@@ -15,7 +15,7 @@ La administración y los servicios que ofrece un sistema de procesamiento digita
 
 ---
 # 1. [Sistemas Mainframes](#agenda)
-Un sistema [mainframe][1] es una entidad que permite el procesamiento de información y soporta multiples usuarios en multiples terminales falsas, que no tienen capacidad de procesamiento.
+Un sistema [mainframe][1] es una entidad que permite el procesamiento paralelo o concurrente de multiples usuarios en multiples terminales falsas, que no tienen capacidad de procesamiento.
 
 * ><i>"La ciencia es una ecuación diferencial;<br>
 la religión es una condición de frontera."</i><br>
@@ -68,7 +68,7 @@ Con la necesidad de procesar multiples y diversas tareas en tiempo real se desar
 <br>
 
 # 2. [Sistemas Centralizados](#agenda)
-Un sistema [centralizado][2] es una entidad que permite el procesamiento de información y soporta multiples usuarios en multiples terminales inteligentes, que intercambian información de cliente a servidor.
+Un sistema [centralizado][2] es una entidad que permite el procesamiento concurrente de información de multiples usuarios en multiples terminales inteligentes, que intercambian información de cliente a servidor.
 
 * ><i>"Es indigno que hombres notables pierdan su tiempo como esclavos del cálculo cuando podrían dejar ese trabajo en manos de cualquiera si se usaran las máquinas."</i><br><cite style="display:block; text-align: right">[Gottfried Leibniz](https://es.wikipedia.org/wiki/Gottfried_Leibniz)</cite>
 
