@@ -68,7 +68,7 @@ Una base de datos distribuida o [BDD][1] es un conjunto de múltiples bases de d
 <br>
 
 # 2. [Cluster](#agenda)
-Un [clúster] se refiere a una colección de recursos de hardware y software que se comportan como si fuesen un único servidor, distribuidos en granjas de servidores unidos entre sí por una red de alta velocidad y disponibilidad.
+Un [clúster][2] se refiere a una colección de recursos de hardware y software que se comportan como si fuesen un único servidor, distribuidos en granjas de servidores unidos entre sí por una red de alta velocidad y disponibilidad.
 
 [2]:https://es.wikipedia.org/wiki/Cl%C3%BAster_de_computadoras
 
