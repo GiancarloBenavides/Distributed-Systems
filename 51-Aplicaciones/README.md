@@ -103,6 +103,10 @@ Un [clúster][2] se refiere a una colección de recursos de hardware y software 
 [23_3]:https://en.wikipedia.org/wiki/HTCondor
 [23_4]:https://es.wikipedia.org/wiki/Xen
 
+## 2.4. Arquitectura ✔
+
+![Imagen de bases de datos distribuidas ](../img/app-cluster-.svg "Sistemas distribuidos")
+
 <br>
 
 # 3. [Grid](#agenda)
