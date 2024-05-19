@@ -48,3 +48,5 @@ Desarrollar en el estudiante las competencias en el desarrollo de aplicaciones d
 
 ### Metodología
 De conformidad con la importancia de desarrollar competencias en el proceso académico y la consolidación de los conceptos en casos de uso real se ha diseñado actividades de reflexión y evaluación por cada secuencia de aprendizaje; donde cada una de ellas pone en práctica conceptos fundamentales relacionados con el desarrollo de la cátedra e incluidos en la previa exposición del contenido temático de la asignatura.
+
+gncdev@acer
